@@ -1,0 +1,25 @@
+Arguments given: -wXc --mode=CAZ2 settings_file.z5 output
+Settings filename: settings_file.z5
+Feature list filename: C:\Users\geary\OneDrive - The University of Melbourne\Research\Projects\2026\bird_flu_surveillance\z_runs\s3_susceptibility_cost_cond\feature_list.txt
+Number of condition transforms: 383
+Map dimensions (width * height): 2309*1730
+Number of grid cells in map (width * height): 3994570
+Number of grid cells in map with data: 1735599
+Input feature layer count: 383
+Feature layer count: 334
+Positive weight feature count: 334
+Negative weight feature count: 0
+Zero weight feature count: 0
+Total number of pixels with data across features: 10206452
+Mean feature extent across study area: 100.00%
+Memory usage of feature data: 59.02MB
+Mean quantization error: 0.0%
+Cost of full landscape: 220447363099.37
+Time used to read and preprocess layer data: 6m8s
+Time used in prioritization: 12s
+Number of iterations: 17
+Final convergence level: 0.00852243%
+Area under curve: 0.366502
+Total time used: 6m46s
+Number of errors: 0
+Number of warnings: 50

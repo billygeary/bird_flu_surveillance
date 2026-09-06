@@ -1,0 +1,3 @@
+feature list file = feature_list.txt
+condition link file = condition_link_file.txt
+cost layer = C:/Users/geary/OneDrive - The University of Melbourne/Research/Projects/2026/bird_flu_surveillance/input_data/travel_cost.tif

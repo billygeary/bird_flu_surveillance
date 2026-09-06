@@ -1,0 +1,191 @@
+[2026-09-03 13:05:05.085] [info] Zonation 5 v2.4
+[2026-09-03 13:05:05.087] [info] Arguments given: -w --mode=CAZ2 settings_file.z5 output
+[2026-09-03 13:05:05.087] [info] Using 8-bit quantization
+[2026-09-03 13:05:05.087] [info] Using 16 threads for computation
+[2026-09-03 13:05:05.087] [info] Loading project "settings_file.z5"
+[2026-09-03 13:05:05.088] [info] Using setting: feature list file = feature_list.txt
+[2026-09-03 13:05:05.089] [info] Using default setting: curves output interval = 9.99999975e-05
+[2026-09-03 13:05:05.089] [info] Using default setting: max iterations = 500
+[2026-09-03 13:05:05.089] [info] Using default setting: mean ranking error threshold = 0.00999999978
+[2026-09-03 13:05:05.089] [info] Using default setting: smoothing factor = 0
+[2026-09-03 13:05:05.089] [info] Using default setting: stop on plateau = 0
+[2026-09-03 13:05:05.089] [info] Using default setting: zero mode = all
+[2026-09-03 13:05:05.089] [info] Using default setting: stop after preprocessing = 0
+[2026-09-03 13:05:05.089] [info] Using default setting: quantization error warning threshold = 20
+[2026-09-03 13:05:05.089] [info] Loading feature layer information from "C:\Users\geary\OneDrive - The University of Melbourne\Research\Projects\2026\bird_flu_surveillance\z_runs\s1_susceptibility\feature_list.txt"
+[2026-09-03 13:05:09.729] [info] Validating project
+[2026-09-03 13:05:27.369] [info] Reading layer data
+[2026-09-03 13:05:27.392] [info] Gathering data statistics
+[2026-09-03 13:05:32.417] [info] 3.2%
+[2026-09-03 13:05:37.434] [info] 7.9%
+[2026-09-03 13:05:42.449] [info] 12.9%
+[2026-09-03 13:05:47.464] [info] 18.5%
+[2026-09-03 13:05:52.480] [info] 24.1%
+[2026-09-03 13:05:57.496] [info] 29.0%
+[2026-09-03 13:06:02.511] [info] 33.2%
+[2026-09-03 13:06:07.527] [info] 38.1%
+[2026-09-03 13:06:12.543] [info] 42.3%
+[2026-09-03 13:06:17.557] [info] 46.4%
+[2026-09-03 13:06:22.574] [info] 50.5%
+[2026-09-03 13:06:27.587] [info] 54.2%
+[2026-09-03 13:06:32.605] [info] 57.3%
+[2026-09-03 13:06:37.621] [info] 59.4%
+[2026-09-03 13:06:42.637] [info] 64.7%
+[2026-09-03 13:06:47.652] [info] 69.9%
+[2026-09-03 13:06:52.668] [info] 71.5%
+[2026-09-03 13:06:57.684] [info] 74.7%
+[2026-09-03 13:07:02.700] [info] 79.2%
+[2026-09-03 13:07:07.715] [info] 83.1%
+[2026-09-03 13:07:12.731] [info] 86.6%
+[2026-09-03 13:07:17.745] [info] 91.3%
+[2026-09-03 13:07:22.761] [info] 95.6%
+[2026-09-03 13:07:27.778] [info] 97.4%
+[2026-09-03 13:07:30.691] [warning] Layer 1 X:\Projects\bird_flu_surveillance\species\1011_Fregata_andrewsi.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.691] [warning] Layer 6 X:\Projects\bird_flu_surveillance\species\1017_Pelecanoides_georgicus.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.691] [warning] Layer 8 X:\Projects\bird_flu_surveillance\species\1020_Morus_serrator.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.691] [warning] Layer 13 X:\Projects\bird_flu_surveillance\species\1034_Oceanites_oceanicus.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.691] [warning] Layer 18 X:\Projects\bird_flu_surveillance\species\1047_Procellaria_cinerea.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.691] [warning] Layer 19 X:\Projects\bird_flu_surveillance\species\1055_Pterodroma_lessonii.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.691] [warning] Layer 20 X:\Projects\bird_flu_surveillance\species\1057_Daption_capense.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.691] [warning] Layer 21 X:\Projects\bird_flu_surveillance\species\1059_Halobaena_caerulea.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.691] [warning] Layer 24 X:\Projects\bird_flu_surveillance\species\1063_Pachyptila_crassirostris.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.691] [warning] Layer 25 X:\Projects\bird_flu_surveillance\species\1064_Pachyptila_desolata.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.691] [warning] Layer 28 X:\Projects\bird_flu_surveillance\species\1076_Phoebetria_palpebrata.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.691] [warning] Layer 30 X:\Projects\bird_flu_surveillance\species\1079_Aptenodytes_patagonicus.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.691] [warning] Layer 32 X:\Projects\bird_flu_surveillance\species\1080_Eudyptes_chrysocome.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.691] [warning] Layer 34 X:\Projects\bird_flu_surveillance\species\1087_Pygoscelis_antarcticus.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.691] [warning] Layer 35 X:\Projects\bird_flu_surveillance\species\1088_Pygoscelis_papua.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.691] [warning] Layer 57 X:\Projects\bird_flu_surveillance\species\25551_Eudyptes_chrysolophus_sensu_lato.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.691] [warning] Layer 60 X:\Projects\bird_flu_surveillance\species\25909_Arctocephalus_tropicalis.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.691] [warning] Layer 67 X:\Projects\bird_flu_surveillance\species\26_Mirounga_leonina.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.691] [warning] Layer 75 X:\Projects\bird_flu_surveillance\species\26021_Phaethon_lepturus_fulvus.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.691] [warning] Layer 79 X:\Projects\bird_flu_surveillance\species\26188_Ninox_novaeseelandiae_undulata.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.691] [warning] Layer 101 X:\Projects\bird_flu_surveillance\species\35_Balaenoptera_edeni.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.691] [warning] Layer 109 X:\Projects\bird_flu_surveillance\species\43_Lagenorhynchus_obscurus.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.691] [warning] Layer 120 X:\Projects\bird_flu_surveillance\species\59_Physeter_macrocephalus.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.691] [warning] Layer 124 X:\Projects\bird_flu_surveillance\species\59297_Papasula_abbotti.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.691] [warning] Layer 131 X:\Projects\bird_flu_surveillance\species\59472_Stercorarius_antarcticus.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.691] [warning] Layer 135 X:\Projects\bird_flu_surveillance\species\59569_Morus_capensis.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.783] [warning] Layer 136 X:\Projects\bird_flu_surveillance\species\59570_Acrocephalus_orientalis.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.784] [warning] Layer 137 X:\Projects\bird_flu_surveillance\species\59597_Garrodia_nereis.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.785] [warning] Layer 143 X:\Projects\bird_flu_surveillance\species\604_Petroica_multicolor.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.785] [warning] Layer 148 X:\Projects\bird_flu_surveillance\species\642_Motacilla_cinerea.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.786] [warning] Layer 151 X:\Projects\bird_flu_surveillance\species\64405_Diomedea_amsterdamensis.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.787] [warning] Layer 157 X:\Projects\bird_flu_surveillance\species\64444_Pachycephala_pectoralis_xanthoprocta.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.787] [warning] Layer 161 X:\Projects\bird_flu_surveillance\species\64451_Sterna_vittata_bethunei.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.788] [warning] Layer 162 X:\Projects\bird_flu_surveillance\species\64452_Sterna_vittata_vittata.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.789] [warning] Layer 176 X:\Projects\bird_flu_surveillance\species\66471_Diomedea_dabbenena.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.789] [warning] Layer 178 X:\Projects\bird_flu_surveillance\species\66491_Thalassarche_chrysostoma.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.790] [warning] Layer 193 X:\Projects\bird_flu_surveillance\species\66671_Ninox_natalis.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.790] [warning] Layer 194 X:\Projects\bird_flu_surveillance\species\66728_Phocoena_dioptrica.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.791] [warning] Layer 198 X:\Projects\bird_flu_surveillance\species\66973_Pterodroma_heraldica.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.792] [warning] Layer 199 X:\Projects\bird_flu_surveillance\species\66994_Leucocarbo_atriceps_nivalis.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.792] [warning] Layer 200 X:\Projects\bird_flu_surveillance\species\66995_Leucocarbo_atriceps_purpurascens.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.793] [warning] Layer 201 X:\Projects\bird_flu_surveillance\species\67030_Chalcophaps_indica_natalis.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.794] [warning] Layer 206 X:\Projects\bird_flu_surveillance\species\67046_Cyanoramphus_cookii.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.794] [warning] Layer 218 X:\Projects\bird_flu_surveillance\species\67122_Turdus_poliocephalus_erythropleurus.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.795] [warning] Layer 264 X:\Projects\bird_flu_surveillance\species\824_Anous_minutus.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.796] [warning] Layer 266 X:\Projects\bird_flu_surveillance\species\82408_Accipiter_hiogaster_natalis.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.796] [warning] Layer 319 X:\Projects\bird_flu_surveillance\species\86568_Crocidura_trichura.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.797] [warning] Layer 334 X:\Projects\bird_flu_surveillance\species\87611_Pteropus_natalis.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.798] [warning] Layer 355 X:\Projects\bird_flu_surveillance\species\88994_Hypotaenidia_philippensis_andrewsi.tif value range is zero, removing from analysis
+[2026-09-03 13:07:30.799] [info] Map dimensions (width * height): 2309*1730
+[2026-09-03 13:07:30.799] [info] Number of grid cells in map (width * height): 3994570
+[2026-09-03 13:07:30.799] [info] Number of grid cells in map with data: 1735599
+[2026-09-03 13:07:30.799] [info] Input feature layer count: 383
+[2026-09-03 13:07:30.799] [info] Feature layer count: 334
+[2026-09-03 13:07:30.800] [info] Positive weight feature count: 334
+[2026-09-03 13:07:30.800] [info] Negative weight feature count: 0
+[2026-09-03 13:07:30.800] [info] Zero weight feature count: 0
+[2026-09-03 13:07:30.800] [info] Total number of pixels with data across features: 10206452
+[2026-09-03 13:07:30.801] [info] Reading feature layers
+[2026-09-03 13:07:35.815] [info] 3.2%
+[2026-09-03 13:07:40.840] [info] 9.2%
+[2026-09-03 13:07:45.845] [info] 15.5%
+[2026-09-03 13:07:50.868] [info] 17.6%
+[2026-09-03 13:07:55.878] [info] 20.1%
+[2026-09-03 13:08:00.896] [info] 25.4%
+[2026-09-03 13:08:05.919] [info] 30.5%
+[2026-09-03 13:08:10.925] [info] 37.7%
+[2026-09-03 13:08:15.941] [info] 44.0%
+[2026-09-03 13:08:20.965] [info] 49.0%
+[2026-09-03 13:08:25.979] [info] 53.4%
+[2026-09-03 13:08:30.989] [info] 59.1%
+[2026-09-03 13:08:36.013] [info] 63.5%
+[2026-09-03 13:08:41.028] [info] 68.1%
+[2026-09-03 13:08:46.045] [info] 72.9%
+[2026-09-03 13:08:51.060] [info] 77.1%
+[2026-09-03 13:08:56.068] [info] 80.6%
+[2026-09-03 13:09:01.084] [info] 86.7%
+[2026-09-03 13:09:06.107] [info] 92.4%
+[2026-09-03 13:09:11.122] [info] 98.0%
+[2026-09-03 13:09:12.738] [info] Mean feature extent across study area: 100.00%
+[2026-09-03 13:09:12.738] [info] Memory usage of feature data: 59.02MB
+[2026-09-03 13:09:12.738] [info] Mean quantization error: 0.0%
+[2026-09-03 13:09:12.739] [info] Time used to read and preprocess layer data: 3m45s
+[2026-09-03 13:09:12.739] [info] Computing priority rank
+[2026-09-03 13:09:13.487] [info] Iteration 0, mean ranking error 0.707929%, mean rank change 4.16628%
+[2026-09-03 13:09:14.166] [info] Iteration 1, mean ranking error 2.19913%, mean rank change 0.398665%
+[2026-09-03 13:09:14.789] [info] Iteration 2, mean ranking error 0.862768%, mean rank change 0.13281%
+[2026-09-03 13:09:15.548] [info] Iteration 3, mean ranking error 0.576126%, mean rank change 0.0815103%
+[2026-09-03 13:09:16.399] [info] Iteration 4, mean ranking error 0.44628%, mean rank change 0.0598825%
+[2026-09-03 13:09:17.153] [info] Iteration 5, mean ranking error 0.368105%, mean rank change 0.0483283%
+[2026-09-03 13:09:17.941] [info] Iteration 6, mean ranking error 0.310755%, mean rank change 0.0405145%
+[2026-09-03 13:09:18.571] [info] Iteration 7, mean ranking error 0.270193%, mean rank change 0.0353179%
+[2026-09-03 13:09:19.210] [info] Iteration 8, mean ranking error 0.23433%, mean rank change 0.0302610%
+[2026-09-03 13:09:19.842] [info] Iteration 9, mean ranking error 0.205364%, mean rank change 0.0260393%
+[2026-09-03 13:09:20.462] [info] Iteration 10, mean ranking error 0.180502%, mean rank change 0.0225096%
+[2026-09-03 13:09:21.095] [info] Iteration 11, mean ranking error 0.160257%, mean rank change 0.0196386%
+[2026-09-03 13:09:21.728] [info] Iteration 12, mean ranking error 0.143731%, mean rank change 0.0175755%
+[2026-09-03 13:09:22.357] [info] Iteration 13, mean ranking error 0.130016%, mean rank change 0.0158975%
+[2026-09-03 13:09:22.995] [info] Iteration 14, mean ranking error 0.117781%, mean rank change 0.0143763%
+[2026-09-03 13:09:23.671] [info] Iteration 15, mean ranking error 0.106767%, mean rank change 0.0128365%
+[2026-09-03 13:09:24.310] [info] Iteration 16, mean ranking error 0.0967989%, mean rank change 0.0113493%
+[2026-09-03 13:09:24.967] [info] Iteration 17, mean ranking error 0.0879195%, mean rank change 0.0101155%
+[2026-09-03 13:09:25.597] [info] Iteration 18, mean ranking error 0.0797411%, mean rank change 0.00898740%
+[2026-09-03 13:09:26.273] [info] Iteration 19, mean ranking error 0.0729708%, mean rank change 0.00812600%
+[2026-09-03 13:09:26.990] [info] Iteration 20, mean ranking error 0.0668491%, mean rank change 0.00731886%
+[2026-09-03 13:09:27.611] [info] Iteration 21, mean ranking error 0.0619251%, mean rank change 0.00681308%
+[2026-09-03 13:09:28.261] [info] Iteration 22, mean ranking error 0.0575263%, mean rank change 0.00635038%
+[2026-09-03 13:09:28.881] [info] Iteration 23, mean ranking error 0.053962%, mean rank change 0.00599470%
+[2026-09-03 13:09:29.501] [info] Iteration 24, mean ranking error 0.0505233%, mean rank change 0.00566038%
+[2026-09-03 13:09:30.180] [info] Iteration 25, mean ranking error 0.0476409%, mean rank change 0.00534707%
+[2026-09-03 13:09:30.806] [info] Iteration 26, mean ranking error 0.0447012%, mean rank change 0.00504186%
+[2026-09-03 13:09:31.731] [info] Iteration 27, mean ranking error 0.0420758%, mean rank change 0.00474605%
+[2026-09-03 13:09:32.366] [info] Iteration 28, mean ranking error 0.0395336%, mean rank change 0.00447888%
+[2026-09-03 13:09:32.996] [info] Iteration 29, mean ranking error 0.0370775%, mean rank change 0.00418960%
+[2026-09-03 13:09:33.623] [info] Iteration 30, mean ranking error 0.0347162%, mean rank change 0.00390455%
+[2026-09-03 13:09:34.254] [info] Iteration 31, mean ranking error 0.0324933%, mean rank change 0.00362891%
+[2026-09-03 13:09:34.887] [info] Iteration 32, mean ranking error 0.0303020%, mean rank change 0.00337577%
+[2026-09-03 13:09:35.507] [info] Iteration 33, mean ranking error 0.0283407%, mean rank change 0.00314085%
+[2026-09-03 13:09:36.136] [info] Iteration 34, mean ranking error 0.0264972%, mean rank change 0.00290750%
+[2026-09-03 13:09:36.806] [info] Iteration 35, mean ranking error 0.0249557%, mean rank change 0.00271821%
+[2026-09-03 13:09:37.432] [info] Iteration 36, mean ranking error 0.0236055%, mean rank change 0.00255406%
+[2026-09-03 13:09:38.070] [info] Iteration 37, mean ranking error 0.0223719%, mean rank change 0.00242531%
+[2026-09-03 13:09:38.692] [info] Iteration 38, mean ranking error 0.0212079%, mean rank change 0.00231920%
+[2026-09-03 13:09:39.330] [info] Iteration 39, mean ranking error 0.0201318%, mean rank change 0.00221328%
+[2026-09-03 13:09:39.961] [info] Iteration 40, mean ranking error 0.0190631%, mean rank change 0.00210280%
+[2026-09-03 13:09:40.592] [info] Iteration 41, mean ranking error 0.0180194%, mean rank change 0.00197183%
+[2026-09-03 13:09:41.236] [info] Iteration 42, mean ranking error 0.0169073%, mean rank change 0.00183935%
+[2026-09-03 13:09:41.865] [info] Iteration 43, mean ranking error 0.0159242%, mean rank change 0.00170988%
+[2026-09-03 13:09:42.502] [info] Iteration 44, mean ranking error 0.0149466%, mean rank change 0.00159226%
+[2026-09-03 13:09:43.195] [info] Iteration 45, mean ranking error 0.0139857%, mean rank change 0.00147153%
+[2026-09-03 13:09:43.824] [info] Iteration 46, mean ranking error 0.0131183%, mean rank change 0.00133527%
+[2026-09-03 13:09:44.453] [info] Iteration 47, mean ranking error 0.0125282%, mean rank change 0.00126861%
+[2026-09-03 13:09:45.090] [info] Iteration 48, mean ranking error 0.0120092%, mean rank change 0.00121656%
+[2026-09-03 13:09:45.732] [info] Iteration 49, mean ranking error 0.0115187%, mean rank change 0.00116589%
+[2026-09-03 13:09:46.363] [info] Iteration 50, mean ranking error 0.0110974%, mean rank change 0.00112172%
+[2026-09-03 13:09:47.004] [info] Iteration 51, mean ranking error 0.0106596%, mean rank change 0.00107579%
+[2026-09-03 13:09:47.639] [info] Iteration 52, mean ranking error 0.0102243%, mean rank change 0.00102998%
+[2026-09-03 13:09:48.301] [info] Iteration 53, mean ranking error 0.00983801%, mean rank change 0.000994014%
+[2026-09-03 13:09:48.308] [info] Time used in prioritization: 35s
+[2026-09-03 13:09:48.308] [info] Number of iterations: 54
+[2026-09-03 13:09:48.308] [info] Final convergence level: 0.00983801%
+[2026-09-03 13:09:48.308] [info] Area under curve: 0.929939
+[2026-09-03 13:09:48.308] [info] Writing feature info
+[2026-09-03 13:09:48.312] [info] Writing feature curves
+[2026-09-03 13:09:49.539] [info] Writing priority rank map
+[2026-09-03 13:09:49.696] [info] Total time used: 4m44s
+[2026-09-03 13:09:49.696] [info] Number of errors: 0
+[2026-09-03 13:09:49.696] [info] Number of warnings: 49
+[2026-09-03 13:09:49.696] [info] Done
