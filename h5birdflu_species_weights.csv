@@ -1,0 +1,422 @@
+"","LISTED_TAXON_ID","SCIENTIFIC_NAME","EPBC_NAMES","VERNACULAR_NAME","THREATENED_STATUS","susceptibility","cons_status_s","nat_risk","weight"
+"1",20,"Arctocephalus forsteri","Arctocephalus forsteri","Long-nosed Fur-seal, New Zealand Fur-seal",NA,"Very high","","Very high",0.8
+"2",21,"Arctocephalus pusillus","Arctocephalus pusillus","Australian Fur-seal, Australo-African Fur-seal",NA,"Very high","","Very high",0.8
+"3",22,"Neophoca cinerea","Neophoca cinerea","Australian Sea-lion, Australian Sea Lion","Endangered","Very high","Endangered","Very high",0.8
+"4",26,"Mirounga leonina","Mirounga leonina","Southern Elephant Seal","Vulnerable","Very high","Vulnerable","Very high",0.8
+"5",28,"Dugong dugon","Dugong dugon","Dugong",NA,"Moderate","","Moderate",0.4
+"6",29,"Stenella longirostris","Stenella longirostris","Long-snouted Spinner Dolphin",NA,"High","","High",0.6
+"7",30,"Steno bredanensis","Steno bredanensis","Rough-toothed Dolphin",NA,"High","","High",0.6
+"8",33,"Balaenoptera acutorostrata","Balaenoptera acutorostrata","Minke Whale",NA,"High","","Moderate",0.4
+"9",34,"Balaenoptera borealis","Balaenoptera borealis","Sei Whale","Vulnerable","High","Vulnerable","High",0.6
+"10",35,"Balaenoptera edeni","Balaenoptera edeni","Bryde's Whale",NA,"High","","Moderate",0.4
+"11",36,"Balaenoptera musculus","Balaenoptera musculus","Blue Whale","Endangered","High","Endangered","High",0.6
+"12",37,"Balaenoptera physalus","Balaenoptera physalus","Fin Whale","Vulnerable","High","Vulnerable","High",0.6
+"13",38,"Megaptera novaeangliae","Megaptera novaeangliae","Humpback Whale",NA,"High","","Moderate",0.4
+"14",39,"Caperea marginata","Caperea marginata","Pygmy Right Whale",NA,"High","","Moderate",0.4
+"15",40,"Eubalaena australis","Balaena glacialis australis|Eubalaena australis","Southern Right Whale","Endangered","High","Endangered","High",0.6
+"16",41,"Lagenodelphis hosei","Lagenodelphis hosei","Fraser's Dolphin, Sarawak Dolphin",NA,"High","","High",0.6
+"17",42,"Lagenorhynchus cruciger","Lagenorhynchus cruciger","Hourglass Dolphin",NA,"High","","High",0.6
+"18",43,"Lagenorhynchus obscurus","Lagenorhynchus obscurus","Dusky Dolphin",NA,"Very high","","High",0.6
+"19",44,"Lissodelphis peronii","Lissodelphis peronii","Southern Right Whale Dolphin",NA,"High","","High",0.6
+"20",46,"Orcinus orca","Orcinus orca","Killer Whale, Orca",NA,"Very high","","Very high",0.8
+"21",47,"Peponocephala electra","Peponocephala electra","Melon-headed Whale",NA,"High","","High",0.6
+"22",48,"Pseudorca crassidens","Pseudorca crassidens","False Killer Whale",NA,"High","","High",0.6
+"23",51,"Stenella attenuata","Stenella attenuata","Spotted Dolphin, Pantropical Spotted Dolphin",NA,"High","","High",0.6
+"24",52,"Stenella coeruleoalba","Stenella coeruleoalba","Striped Dolphin, Euphrosyne Dolphin",NA,"High","","High",0.6
+"25",54,"Mesoplodon mirus","Mesoplodon mirus","True's Beaked Whale",NA,"Moderate","","Moderate",0.4
+"26",55,"Tasmacetus shepherdi","Tasmacetus shepherdi","Shepherd's Beaked Whale, Tasman Beaked Whale",NA,"Moderate","","Moderate",0.4
+"27",56,"Ziphius cavirostris","Ziphius cavirostris","Cuvier's Beaked Whale, Goose-beaked Whale",NA,"Moderate","","Moderate",0.4
+"28",57,"Kogia breviceps","Kogia breviceps","Pygmy Sperm Whale",NA,"Moderate","","Moderate",0.4
+"29",59,"Physeter macrocephalus","Physeter macrocephalus","Sperm Whale",NA,"High","","High",0.6
+"30",60,"Delphinus delphis","Delphinus delphis","Common Dolphin, Short-beaked Common Dolphin",NA,"Very high","","High",0.6
+"31",61,"Feresa attenuata","Feresa attenuata","Pygmy Killer Whale",NA,"High","","High",0.6
+"32",62,"Globicephala macrorhynchus","Globicephala macrorhynchus","Short-finned Pilot Whale",NA,"Very high","","High",0.6
+"33",64,"Grampus griseus","Grampus griseus","Risso's Dolphin, Grampus",NA,"High","","High",0.6
+"34",66,"Xeromys myoides","Xeromys myoides","Water Mouse, False Water Rat, Yirrkoo","Vulnerable","Moderate","Vulnerable","Moderate",0.4
+"35",68,"Zyzomys pedunculatus","Zyzomys pedunculatus","Central Rock-rat, Antina","Critically Endangered","Low","Critically Endangered","Low",0.2
+"36",70,"Berardius arnuxii","Berardius arnuxii","Arnoux's Beaked Whale",NA,"High","","Moderate",0.4
+"37",71,"Hyperoodon planifrons","Hyperoodon planifrons","Southern Bottlenose Whale",NA,"Moderate","","Moderate",0.4
+"38",72,"Indopacetus pacificus","Indopacetus pacificus","Longman's Beaked Whale",NA,"Moderate","","Moderate",0.4
+"39",73,"Mesoplodon bowdoini","Mesoplodon bowdoini","Andrew's Beaked Whale",NA,"Moderate","","Moderate",0.4
+"40",74,"Mesoplodon densirostris","Mesoplodon densirostris","Blainville's Beaked Whale, Dense-beaked Whale",NA,"Moderate","","Moderate",0.4
+"41",75,"Mesoplodon grayi","Mesoplodon grayi","Gray's Beaked Whale, Scamperdown Whale",NA,"Moderate","","Moderate",0.4
+"42",76,"Mesoplodon hectori","Mesoplodon hectori","Hector's Beaked Whale",NA,"Moderate","","Moderate",0.4
+"43",77,"Pseudomys shortridgei","Pseudomys shortridgei","Heath Mouse, Dayang, Heath Rat","Endangered","Low","Endangered","Low",0.2
+"44",88,"Pseudomys fumeus","Pseudomys fumeus","Smoky Mouse, Konoom","Endangered","Low","Endangered","Low",0.2
+"45",96,"Pseudomys novaehollandiae","Pseudomys novaehollandiae","Pookila, New Holland Mouse","Vulnerable","Low","Vulnerable","Low",0.2
+"46",98,"Pseudomys oralis","Pseudomys oralis","Hastings River Mouse, Koontoo","Endangered","Low","Endangered","Low",0.2
+"47",99,"Pseudomys pilligaensis","Pseudomys pilligaensis","Pilliga Mouse, Poolkoo","Vulnerable","Low","Vulnerable","Low",0.2
+"48",108,"Pseudomys australis","Pseudomys australis","Plains Rat, Palyoora, Plains Mouse","Vulnerable","Low","Vulnerable","Low",0.2
+"49",113,"Pseudomys fieldi","Pseudomys fieldi","Shark Bay Mouse, Djoongari, Alice Springs Mouse","Vulnerable","Low","Vulnerable","Low",0.2
+"50",123,"Notomys aquilo","Notomys aquilo","Northern Hopping-mouse, Woorrentinta","Endangered","Low","Endangered","Low",0.2
+"51",125,"Notomys fuscus","Notomys fuscus","Dusky Hopping-mouse, Wilkiniti","Vulnerable","Low","Vulnerable","Low",0.2
+"52",132,"Conilurus penicillatus","Conilurus penicillatus","Brush-tailed Rabbit-rat, Brush-tailed Tree-rat, Pakooma","Vulnerable","Low","Vulnerable","Low",0.2
+"53",137,"Leporillus conditor","Leporillus conditor","Wopilkara, Greater Stick-nest Rat","Vulnerable","Low","Vulnerable","Low",0.2
+"54",174,"Macroderma gigas","Macroderma gigas","Ghost Bat","Vulnerable","Low","Vulnerable","Low",0.2
+"55",180,"Hipposideros semoni","Hipposideros semoni","Semon's Leaf-nosed Bat, Greater Wart-nosed Horseshoe-bat","Vulnerable","Low","Vulnerable","Low",0.2
+"56",183,"Chalinolobus dwyeri","Chalinolobus dwyeri","Large-eared Pied Bat, Large Pied Bat","Endangered","Low","Endangered","Low",0.2
+"57",185,"Pteropus conspicillatus","Pteropus conspicillatus","Spectacled Flying-fox","Endangered","Low","Endangered","Moderate",0.4
+"58",186,"Pteropus poliocephalus","Pteropus poliocephalus","Grey-headed Flying-fox","Vulnerable","Moderate","Vulnerable","Moderate",0.4
+"59",198,"Lasiorhinus krefftii","Lasiorhinus krefftii","Northern Hairy-nosed Wombat, Yaminon","Critically Endangered","Low","Critically Endangered","Moderate",0.4
+"60",214,"Bettongia tropica","Bettongia tropica","Northern Bettong","Endangered","Low","Endangered","Low",0.2
+"61",217,"Potorous longipes","Potorous longipes","Long-footed Potoroo","Endangered","Low","Endangered","Low",0.2
+"62",225,"Petrogale penicillata","Petrogale penicillata","Brush-tailed Rock-wallaby","Vulnerable","Low","Vulnerable","Low",0.2
+"63",226,"Petrogale persephone","Petrogale persephone","Proserpine Rock-wallaby","Endangered","Low","Endangered","Low",0.2
+"64",229,"Setonix brachyurus","Setonix brachyurus","Quokka","Vulnerable","Low","Vulnerable","Low",0.2
+"65",239,"Onychogalea fraenata","Onychogalea fraenata","Bridled Nail-tail Wallaby, Bridled Nailtail Wallaby","Endangered","Low","Endangered","Low",0.2
+"66",254,"Petauroides volans","Petauroides volans","Greater Glider (southern and central)","Endangered","Low","Endangered","Low",0.2
+"67",267,"Burramys parvus","Burramys parvus","Mountain Pygmy-possum","Endangered","Low","Endangered","Low",0.2
+"68",273,"Gymnobelideus leadbeateri","Gymnobelideus leadbeateri","Leadbeater's Possum","Critically Endangered","Low","Critically Endangered","Moderate",0.4
+"69",274,"Hemibelideus lemuroides","Hemibelideus lemuroides","Lemuroid Ringtail Possum","Endangered","Low","Endangered","Low",0.2
+"70",278,"Perameles bougainville","Perameles bougainville","Shark Bay Bandicoot","Endangered","Low","Endangered","Low",0.2
+"71",282,"Macrotis lagotis","Macrotis lagotis","Greater Bilby","Vulnerable","Low","Vulnerable","Low",0.2
+"72",291,"Sminthopsis psammophila","Sminthopsis psammophila","Sandhill Dunnart","Endangered","Low","Endangered","Moderate",0.4
+"73",294,"Myrmecobius fasciatus","Myrmecobius fasciatus","Numbat","Endangered","Low","Endangered","Low",0.2
+"74",299,"Sarcophilus harrisii","Sarcophilus harrisii","Tasmanian Devil","Endangered","High","Endangered","High",0.6
+"75",302,"Sminthopsis butleri","Sminthopsis butleri","Butler's Dunnart","Vulnerable","Low","Vulnerable","Low",0.2
+"76",305,"Sminthopsis douglasi","Sminthopsis douglasi","Julia Creek Dunnart","Vulnerable","Low","Vulnerable","Moderate",0.4
+"77",313,"Parantechinus apicalis","Parantechinus apicalis","Dibbler","Endangered","Low","Endangered","Low",0.2
+"78",316,"Phascogale calura","Phascogale calura","Red-tailed Phascogale, Red-tailed Wambenger, Kenngoor","Vulnerable","Low","Vulnerable","Moderate",0.4
+"79",329,"Dasyuroides byrnei","Dasyuroides byrnei","Kowari, brushy-tailed marsupial rat, Byrne's crest-tailed marsupial rat","Endangered","Moderate","Endangered","Moderate",0.4
+"80",330,"Dasyurus geoffroii","Dasyurus geoffroii","Chuditch, Western Quoll","Vulnerable","Moderate","Vulnerable","Moderate",0.4
+"81",331,"Dasyurus hallucatus","Dasyurus hallucatus","Northern Quoll, Digul [Gogo-Yimidir], Wijingadda [Dambimangari], Wiminji [Martu]","Endangered","Moderate","Endangered","Moderate",0.4
+"82",333,"Dasyurus viverrinus","Dasyurus viverrinus","Eastern Quoll, Luaner","Endangered","Moderate","Endangered","High",0.6
+"83",344,"Antechinus bellus","Antechinus bellus","Fawn Antechinus","Vulnerable","Low","Vulnerable","Moderate",0.4
+"84",413,"Chloebia gouldiae","Erythrura gouldiae","Gouldian Finch","Endangered","Moderate","Endangered","High",0.6
+"85",418,"Pardalotus quadragintus","Pardalotus quadragintus","Forty-spotted Pardalote","Endangered","Low","Endangered","High",0.6
+"86",449,"Manorina melanotis","Manorina melanotis","Black-eared Miner","Endangered","Low","Endangered","High",0.6
+"87",470,"Grantiella picta","Grantiella picta","Painted Honeyeater","Vulnerable","Low","Vulnerable","Low",0.2
+"88",515,"Dasyornis longirostris","Dasyornis longirostris","Western Bristlebird","Endangered","Low","Endangered","High",0.6
+"89",525,"Pycnoptilus floccosus","Pycnoptilus floccosus","Pilotbird","Vulnerable","Low","Vulnerable","Low",0.2
+"90",529,"Aphelocephala leucopsis","Aphelocephala leucopsis","Southern Whiteface","Vulnerable","Low","Vulnerable","Low",0.2
+"91",533,"Dasyornis brachypterus","Dasyornis brachypterus","Eastern Bristlebird","Endangered","Low","Endangered","High",0.6
+"92",558,"Amytornis dorotheae","Amytornis dorotheae","Carpentarian Grasswren","Endangered","Low","Endangered","High",0.6
+"93",564,"Amytornis woodwardi","Amytornis woodwardi","White-throated Grasswren, Yirlinkirrkirr","Vulnerable","Low","Vulnerable","Moderate",0.4
+"94",592,"Rhipidura rufifrons","Rhipidura rufifrons","Rufous Fantail",NA,"Moderate","","Low",0.2
+"95",601,"Pachycephala rufogularis","Pachycephala rufogularis","Red-lored Whistler","Vulnerable","Moderate","Vulnerable","High",0.6
+"96",604,"Petroica multicolor","Petroica multicolor","Norfolk Island Robin, Pacific Robin","Vulnerable","Moderate","Vulnerable","Low",0.2
+"97",607,"Monarcha frater","Monarcha frater","Black-winged Monarch",NA,"Moderate","","Moderate",0.4
+"98",609,"Monarcha melanopsis","Monarcha melanopsis","Black-faced Monarch",NA,"Moderate","","Low",0.2
+"99",610,"Symposiachrus trivirgatus","Monarcha trivirgatus","Spectacled Monarch",NA,"Moderate","","Low",0.2
+"100",612,"Myiagra cyanoleuca","Myiagra cyanoleuca","Satin Flycatcher",NA,"Moderate","","Low",0.2
+"101",642,"Motacilla cinerea","Motacilla cinerea","Grey Wagtail",NA,"Low","","Low",0.2
+"102",644,"Motacilla flava","Motacilla flava","Yellow Wagtail",NA,"Low","","Low",0.2
+"103",654,"Atrichornis clamosus","Atrichornis clamosus","Noisy Scrub-bird, Tjimiluk","Endangered","Low","Endangered","High",0.6
+"104",655,"Atrichornis rufescens","Atrichornis rufescens","Rufous Scrub-bird","Endangered","Low","Endangered","High",0.6
+"105",662,"Hirundo rustica","Hirundo rustica","Barn Swallow",NA,"Low","","Low",0.2
+"106",670,"Merops ornatus","Merops ornatus","Rainbow Bee-eater",NA,"Moderate","","Low",0.2
+"107",678,"Apus pacificus","Apus pacificus","Fork-tailed Swift",NA,"Moderate","","Low",0.2
+"108",682,"Hirundapus caudacutus","Hirundapus caudacutus","White-throated Needletail","Vulnerable","Moderate","Vulnerable","Moderate",0.4
+"109",705,"Chalcites osculans","Chrysococcyx osculans","Black-eared Cuckoo",NA,"Low","","Low",0.2
+"110",720,"Psephotellus chrysopterygius","Psephotus chrysopterygius","Golden-shouldered Parrot","Endangered","Low","Endangered","High",0.6
+"111",726,"Neophema chrysostoma","Neophema chrysostoma","Blue-winged Parrot","Vulnerable","Low","Vulnerable","Low",0.2
+"112",738,"Polytelis swainsonii","Polytelis swainsonii","Superb Parrot","Vulnerable","Low","Vulnerable","Low",0.2
+"113",744,"Lathamus discolor","Lathamus discolor","Swift Parrot","Critically Endangered","Low","Critically Endangered","High",0.6
+"114",747,"Neophema chrysogaster","Neophema chrysogaster","Orange-bellied Parrot","Critically Endangered","Low","Critically Endangered","High",0.6
+"115",758,"Polytelis alexandrae","Polytelis alexandrae","Princess Parrot, Alexandra's Parrot","Vulnerable","Low","Vulnerable","Low",0.2
+"116",768,"Callocephalon fimbriatum","Callocephalon fimbriatum","Gang-gang Cockatoo","Endangered","Low","Endangered","High",0.6
+"117",769,"Zanda baudinii","Calyptorhynchus baudinii","Baudin's Cockatoo, Baudin's Black-Cockatoo, Long-billed Black-cockatoo","Endangered","Low","Endangered","Moderate",0.4
+"118",794,"Onychoprion fuscatus","Sterna fuscata","Sooty Tern",NA,"Very high","","Very high",0.8
+"119",796,"Sternula nereis","Sterna nereis","Fairy Tern",NA,"Very high","","Very high",0.8
+"120",799,"Sterna striata","Sterna striata","White-fronted Tern",NA,"High","","High",0.6
+"121",800,"Sterna sumatrana","Sterna sumatrana","Black-naped Tern",NA,"Very high","","High",0.6
+"122",808,"Hydroprogne caspia","Hydroprogne caspia|Sterna caspia","Caspian Tern",NA,"Very high","","High",0.6
+"123",809,"Larus dominicanus","Larus dominicanus","Kelp Gull",NA,"Very high","","High",0.6
+"124",810,"Chroicocephalus novaehollandiae","Larus novaehollandiae","Silver Gull",NA,"Very high","","High",0.6
+"125",811,"Larus pacificus","Larus pacificus","Pacific Gull",NA,"Very high","","High",0.6
+"126",815,"Thalasseus bengalensis","Sterna bengalensis","Lesser Crested Tern",NA,"Very high","","High",0.6
+"127",817,"Sterna dougallii","Sterna dougallii","Roseate Tern",NA,"Very high","","Very high",0.8
+"128",818,"Stiltia isabella","Stiltia isabella","Australian Pratincole",NA,"High","","Moderate",0.4
+"129",824,"Anous minutus","Anous minutus","Black Noddy",NA,"Very high","","Very high",0.8
+"130",825,"Anous stolidus","Anous stolidus","Common Noddy",NA,"Very high","","Very high",0.8
+"131",829,"Tringa glareola","Tringa glareola","Wood Sandpiper",NA,"Moderate","","Low",0.2
+"132",831,"Tringa incana","Heteroscelus incanus|Tringa incana","Wandering Tattler",NA,"Moderate","","Moderate",0.4
+"133",832,"Tringa nebularia","Tringa nebularia","Common Greenshank, Greenshank","Endangered","Moderate","Endangered","High",0.6
+"134",833,"Tringa stagnatilis","Tringa stagnatilis","Marsh Sandpiper, Little Greenshank",NA,"Moderate","","Low",0.2
+"135",835,"Tringa totanus","Tringa totanus","Common Redshank, Redshank",NA,"Moderate","","Moderate",0.4
+"136",838,"Phalaropus lobatus","Phalaropus lobatus","Red-necked Phalarope",NA,"Moderate","","Moderate",0.4
+"137",840,"Glareola maldivarum","Glareola maldivarum","Oriental Pratincole",NA,"High","","Moderate",0.4
+"138",841,"Gallinago stenura","Gallinago stenura","Pin-tailed Snipe",NA,"Moderate","","High",0.6
+"139",842,"Calidris falcinellus","Limicola falcinellus","Broad-billed Sandpiper",NA,"Moderate","","Moderate",0.4
+"140",843,"Limnodromus semipalmatus","Limnodromus semipalmatus","Asian Dowitcher","Vulnerable","Moderate","Vulnerable","High",0.6
+"141",844,"Limosa lapponica","Limosa lapponica","Bar-tailed Godwit",NA,"Moderate","","High",0.6
+"142",845,"Limosa limosa","Limosa limosa","Black-tailed Godwit","Endangered","Moderate","Endangered","High",0.6
+"143",847,"Numenius madagascariensis","Numenius madagascariensis","Eastern Curlew, Far Eastern Curlew","Critically Endangered","Moderate","Critically Endangered","High",0.6
+"144",848,"Numenius minutus","Numenius minutus","Little Curlew, Little Whimbrel",NA,"Moderate","","Low",0.2
+"145",849,"Numenius phaeopus","Numenius phaeopus","Whimbrel",NA,"Moderate","","Low",0.2
+"146",850,"Calidris pugnax","Philomachus pugnax","Ruff",NA,"Moderate","","Moderate",0.4
+"147",851,"Tringa brevipes","Heteroscelus brevipes|Tringa brevipes","Grey-tailed Tattler",NA,"Moderate","","Low",0.2
+"148",855,"Calidris canutus","Calidris canutus","Red Knot, Knot","Vulnerable","Moderate","Vulnerable","High",0.6
+"149",856,"Calidris ferruginea","Calidris ferruginea","Curlew Sandpiper","Critically Endangered","Moderate","Critically Endangered","High",0.6
+"150",858,"Calidris melanotos","Calidris melanotos","Pectoral Sandpiper",NA,"Moderate","","Low",0.2
+"151",860,"Calidris ruficollis","Calidris ruficollis","Red-necked Stint",NA,"Moderate","","Low",0.2
+"152",861,"Calidris subminuta","Calidris subminuta","Long-toed Stint",NA,"Moderate","","Low",0.2
+"153",862,"Calidris tenuirostris","Calidris tenuirostris","Great Knot","Vulnerable","Moderate","Vulnerable","Moderate",0.4
+"154",863,"Gallinago hardwickii","Gallinago hardwickii","Latham's Snipe, Japanese Snipe","Vulnerable","Moderate","Vulnerable","Moderate",0.4
+"155",864,"Gallinago megala","Gallinago megala","Swinhoe's Snipe",NA,"Moderate","","Low",0.2
+"156",865,"Pluvialis squatarola","Pluvialis squatarola","Grey Plover","Vulnerable","High","Vulnerable","High",0.6
+"157",870,"Himantopus himantopus","Himantopus himantopus","Pied Stilt, Black-winged Stilt",NA,"High","","Moderate",0.4
+"158",871,"Recurvirostra novaehollandiae","Recurvirostra novaehollandiae","Red-necked Avocet",NA,"Very high","","High",0.6
+"159",872,"Arenaria interpres","Arenaria interpres","Ruddy Turnstone","Vulnerable","Moderate","Vulnerable","Moderate",0.4
+"160",874,"Calidris acuminata","Calidris acuminata","Sharp-tailed Sandpiper","Vulnerable","Moderate","Vulnerable","Moderate",0.4
+"161",875,"Calidris alba","Calidris alba","Sanderling",NA,"Moderate","","Low",0.2
+"162",877,"Charadrius leschenaultii","Charadrius leschenaultii","Greater Sand Plover, Large Sand Plover","Vulnerable","High","Vulnerable","High",0.6
+"163",879,"Charadrius mongolus","Charadrius mongolus","Lesser Sand Plover, Mongolian Plover","Endangered","High","Endangered","Very high",0.8
+"164",881,"Charadrius ruficapillus","Charadrius ruficapillus","Red-capped Plover",NA,"Very high","","High",0.6
+"165",882,"Charadrius veredus","Charadrius veredus","Oriental Plover, Oriental Dotterel",NA,"High","","Moderate",0.4
+"166",895,"Charadrius bicinctus","Charadrius bicinctus","Double-banded Plover",NA,"High","","Moderate",0.4
+"167",896,"Charadrius dubius","Charadrius dubius","Little Ringed Plover",NA,"Low","","Low",0.2
+"168",906,"Pedionomus torquatus","Pedionomus torquatus","Plains-wanderer","Critically Endangered","High","Critically Endangered","Very high",0.8
+"169",923,"Turnix melanogaster","Turnix melanogaster","Black-breasted Button-quail","Vulnerable","High","Vulnerable","Very high",0.8
+"170",929,"Falco hypoleucos","Falco hypoleucos","Grey Falcon","Vulnerable","High","Vulnerable","High",0.6
+"171",934,"Leipoa ocellata","Leipoa ocellata","Malleefowl","Vulnerable","High","Vulnerable","High",0.6
+"172",942,"Erythrotriorchis radiatus","Erythrotriorchis radiatus","Red Goshawk","Endangered","High","Endangered","Very high",0.8
+"173",943,"Haliaeetus leucogaster","Haliaeetus leucogaster","White-bellied Sea-Eagle",NA,"High","","Moderate",0.4
+"174",952,"Pandion haliaetus","Pandion haliaetus","Osprey",NA,"Moderate","","Low",0.2
+"175",978,"Anseranas semipalmata","Anseranas semipalmata","Magpie Goose",NA,"Very high","","High",0.6
+"176",994,"Phaethon rubricauda","Phaethon rubricauda","Red-tailed Tropicbird",NA,"High","","Moderate",0.4
+"177",1001,"Botaurus poiciloptilus","Botaurus poiciloptilus","Australasian Bittern","Endangered","Moderate","Endangered","High",0.6
+"178",1011,"Fregata andrewsi","Fregata andrewsi","Christmas Island Frigatebird, Andrew's Frigatebird","Endangered","Extreme","Endangered","Extreme",1
+"179",1012,"Fregata ariel","Fregata ariel","Lesser Frigatebird, Least Frigatebird",NA,"High","","High",0.6
+"180",1013,"Fregata minor","Fregata minor","Great Frigatebird, Greater Frigatebird",NA,"Very high","","Very high",0.8
+"181",1014,"Phaethon lepturus","Phaethon lepturus","White-tailed Tropicbird",NA,"High","","Very high",0.8
+"182",1016,"Pelagodroma marina","Pelagodroma marina","White-faced Storm-Petrel",NA,"High","","High",0.6
+"183",1017,"Pelecanoides georgicus","Pelecanoides georgicus","South Georgian Diving-Petrel",NA,"Moderate","","Moderate",0.4
+"184",1018,"Pelecanoides urinatrix","Pelecanoides urinatrix","Common Diving-Petrel",NA,"Moderate","","Moderate",0.4
+"185",1020,"Morus serrator","Morus serrator","Australasian Gannet",NA,"Very high","","Very high",0.8
+"186",1021,"Sula dactylatra","Sula dactylatra","Masked Booby",NA,"Very high","","Very high",0.8
+"187",1022,"Sula leucogaster","Sula leucogaster","Brown Booby",NA,"Very high","","Very high",0.8
+"188",1023,"Sula sula","Sula sula","Red-footed Booby",NA,"Very high","","High",0.6
+"189",1025,"Puffinus huttoni","Puffinus huttoni","Hutton's Shearwater",NA,"Moderate","","High",0.6
+"190",1034,"Oceanites oceanicus","Oceanites oceanicus","Wilson's Storm-Petrel",NA,"Very high","","Very high",0.8
+"191",1035,"Pterodroma macroptera","Pterodroma macroptera","Great-winged Petrel",NA,"High","","High",0.6
+"192",1036,"Pterodroma mollis","Pterodroma mollis","Soft-plumaged Petrel","Vulnerable","Moderate","Vulnerable","High",0.6
+"193",1038,"Pterodroma nigripennis","Pterodroma nigripennis","Black-winged Petrel",NA,"Moderate","","High",0.6
+"194",1040,"Pterodroma solandri","Pterodroma solandri","Providence Petrel",NA,"High","","Very high",0.8
+"195",1047,"Procellaria cinerea","Procellaria cinerea","Grey Petrel",NA,"Moderate","","High",0.6
+"196",1055,"Pterodroma lessonii","Pterodroma lessonii","White-headed Petrel",NA,"Moderate","","High",0.6
+"197",1057,"Daption capense","Daption capense","Cape Petrel",NA,"Moderate","","High",0.6
+"198",1059,"Halobaena caerulea","Halobaena caerulea","Blue Petrel","Vulnerable","Moderate","Vulnerable","High",0.6
+"199",1060,"Macronectes giganteus","Macronectes giganteus","Southern Giant-Petrel, Southern Giant Petrel","Endangered","High","Endangered","Very high",0.8
+"200",1061,"Macronectes halli","Macronectes halli","Northern Giant Petrel","Vulnerable","High","Vulnerable","Very high",0.8
+"201",1063,"Pachyptila crassirostris","Pachyptila crassirostris","Fulmar Prion",NA,"High","","Very high",0.8
+"202",1064,"Pachyptila desolata","Pachyptila desolata","Antarctic Prion",NA,"Moderate","","High",0.6
+"203",1066,"Pachyptila turtur","Pachyptila turtur","Fairy Prion",NA,"High","","High",0.6
+"204",1075,"Phoebetria fusca","Phoebetria fusca","Sooty Albatross","Vulnerable","Moderate","Vulnerable","Moderate",0.4
+"205",1076,"Phoebetria palpebrata","Phoebetria palpebrata","Light-mantled Sooty Albatross",NA,"Moderate","","High",0.6
+"206",1077,"Calonectris leucomelas","Calonectris leucomelas","Streaked Shearwater",NA,"Moderate","","Low",0.2
+"207",1079,"Aptenodytes patagonicus","Aptenodytes patagonicus","King Penguin",NA,"High","","High",0.6
+"208",1080,"Eudyptes chrysocome","Eudyptes chrysocome","Rockhopper Penguin",NA,"Very high","","Very high",0.8
+"209",1085,"Eudyptula minor","Eudyptula minor","Little Penguin",NA,"Very high","","Very high",0.8
+"210",1087,"Pygoscelis antarcticus","Pygoscelis antarcticus","Chinstrap Penguin",NA,NA,NA,NA,0.2
+"211",1088,"Pygoscelis papua","Pygoscelis papua","Gentoo Penguin",NA,"High","","High",0.6
+"212",25545,"Pluvialis fulva","Pluvialis fulva","Pacific Golden Plover",NA,"High","","Moderate",0.4
+"213",25551,"Eudyptes chrysolophus sensu lato","Eudyptes chrysolophus sensu lato","Macaroni Penguin, Royal Penguin",NA,"Very high","","Very high",0.8
+"214",25556,"Mesoplodon layardii","Mesoplodon layardii","Strap-toothed Beaked Whale, Strap-toothed Whale, Layard's Beaked Whale",NA,"Moderate","","Moderate",0.4
+"215",25906,"Zyzomys maini","Zyzomys maini","Arnhem Rock-rat, Arnhem Land Rock-rat, Kodjperr","Vulnerable","Low","Vulnerable","Low",0.2
+"216",25907,"Zyzomys palatalis","Zyzomys palatalis","Carpentarian Rock-rat, Aywalirroomoo","Endangered","Low","Endangered","Low",0.2
+"217",25909,"Arctocephalus tropicalis","Arctocephalus tropicalis","Subantarctic Fur-seal","Endangered","Very high","Endangered","Very high",0.8
+"218",25911,"Pseudocheirus occidentalis","Pseudocheirus occidentalis","Western Ringtail Possum, Ngwayir, Womp, Woder, Ngoor, Ngoolangit","Critically Endangered","Low","Critically Endangered","Low",0.2
+"219",25977,"Ceyx azureus diemenensis","Ceyx azureus diemenensis","Tasmanian Azure Kingfisher","Endangered","Moderate","Endangered","High",0.6
+"220",25978,"Cereopsis novaehollandiae grisea","Cereopsis novaehollandiae grisea","Cape Barren Goose (south-western), Recherche Cape Barren Goose","Vulnerable","High","Vulnerable","Very high",0.8
+"221",25982,"Calyptorhynchus banksii graptogyne","Calyptorhynchus banksii graptogyne","South-eastern Red-tailed Black-Cockatoo","Endangered","Low","Endangered","High",0.6
+"222",25986,"Casuarius casuarius","Casuarius casuarius johnsonii","Southern Cassowary","Endangered","Moderate","Endangered","High",0.6
+"223",25994,"Strepera graculina crissalis","Strepera graculina crissalis","Lord Howe Island Currawong, Pied Currawong (Lord Howe Island)","Vulnerable","High","Vulnerable","Very high",0.8
+"224",26000,"Anous tenuirostris melanops","Anous tenuirostris melanops","Australian Lesser Noddy","Vulnerable","Very high","Vulnerable","Extreme",1
+"225",26001,"Amytornis striatus striatus","Amytornis striatus striatus","Mukarrthippi Grasswren, Striated Grasswren (sandplain)","Critically Endangered","Low","Critically Endangered","High",0.6
+"226",26004,"Malurus leucopterus leucopterus","Malurus leucopterus leucopterus","White-winged Fairy-wren (Dirk Hartog Island), Dirk Hartog Black-and-White Fairy-wren","Vulnerable","Low","Vulnerable","High",0.6
+"227",26005,"Stipiturus malachurus intermedius","Stipiturus malachurus intermedius","Fleurieu Peninsula Southern Emu-wren, Mount Lofty Southern Emu-wren","Endangered","Low","Endangered","High",0.6
+"228",26006,"Stipiturus malachurus parimeda","Stipiturus malachurus parimeda","Southern Emu-wren (Eyre Peninsula), Eyre Peninsula Southern Emu-wren","Endangered","Low","Endangered","High",0.6
+"229",26011,"Lichenostomus melanops cassidix","Lichenostomus melanops cassidix","Helmeted Honeyeater, Yellow-tufted Honeyeater (Helmeted)","Critically Endangered","Low","Critically Endangered","Very high",0.8
+"230",26013,"Falcunculus frontatus whitei","Falcunculus frontatus whitei","Crested Shrike-tit (northern), Northern Shrike-tit","Vulnerable","Moderate","Vulnerable","High",0.6
+"231",26021,"Phaethon lepturus fulvus","Phaethon lepturus fulvus","Christmas Island White-tailed Tropicbird, Golden Bosunbird","Endangered","High","Endangered","Very high",0.8
+"232",26027,"Neochmia ruficauda ruficauda","Neochmia ruficauda ruficauda","Star Finch (eastern), Star Finch (southern)","Endangered","Moderate","Endangered","High",0.6
+"233",26033,"Pterodroma leucoptera leucoptera","Pterodroma leucoptera leucoptera","Gould's Petrel, Australian Gould's Petrel","Endangered","High","Endangered","Very high",0.8
+"234",26048,"Tyto novaehollandiae kimberli","Tyto novaehollandiae kimberli","Masked Owl (northern)","Vulnerable","High","Vulnerable","High",0.6
+"235",26049,"Tyto novaehollandiae melvillensis","Tyto novaehollandiae melvillensis","Tiwi Masked Owl, Tiwi Islands Masked Owl","Endangered","High","Endangered","Very high",0.8
+"236",26188,"Ninox novaeseelandiae undulata","Ninox novaeseelandiae undulata","Norfolk Island Boobook, Norfolk Island Morepork, Southern Boobook (Norfolk Island)","Endangered","Moderate","Endangered","Very high",0.8
+"237",26194,"Malurus leucopterus edouardi","Malurus leucopterus edouardi","White-winged Fairy-wren (Barrow Island), Barrow Island Black-and-white Fairy-wren","Vulnerable","Low","Vulnerable","High",0.6
+"238",26775,"Petaurus gracilis","Petaurus gracilis","Mahogany Glider","Endangered","Low","Endangered","Moderate",0.4
+"239",59278,"Petrogale coenensis","Petrogale coenensis","Cape York Rock-wallaby","Endangered","Low","Endangered","Low",0.2
+"240",59281,"Petrogale sharmani","Petrogale sharmani","Mount Claro Rock Wallaby, Sharman's Rock Wallaby","Vulnerable","Low","Vulnerable","Low",0.2
+"241",59282,"Globicephala melas","Globicephala melas","Long-finned Pilot Whale",NA,"Very high","","High",0.6
+"242",59293,"Turnix olivii","Turnix olivii","Buff-breasted Button-quail","Critically Endangered","High","","Moderate",0.4
+"243",59297,"Papasula abbotti","Papasula abbotti","Abbott's Booby","Endangered","High","Endangered","Very high",0.8
+"244",59300,"Xenus cinereus","Xenus cinereus","Terek Sandpiper","Vulnerable","Moderate","Vulnerable","Moderate",0.4
+"245",59309,"Actitis hypoleucos","Actitis hypoleucos","Common Sandpiper",NA,"Moderate","","Low",0.2
+"246",59350,"Pezoporus occidentalis","Pezoporus occidentalis","Night Parrot","Critically Endangered","Low","Critically Endangered","High",0.6
+"247",59363,"Puffinus assimilis","Puffinus assimilis","Little Shearwater",NA,"High","","Very high",0.8
+"248",59398,"Stagonopleura guttata","Stagonopleura guttata","Diamond Firetail","Vulnerable","Low","Vulnerable","Low",0.2
+"249",59459,"Stipiturus mallee","Stipiturus mallee","Mallee Emu-wren","Endangered","Low","Endangered","High",0.6
+"250",59472,"Stercorarius antarcticus","Catharacta skua","Brown Skua",NA,"High","","Moderate",0.4
+"251",59510,"Thinornis cucullatus","Thinornis rubricollis","Hooded Plover, Hooded Dotterel",NA,"Very high","","Very high",0.8
+"252",59523,"Zanda latirostris","Calyptorhynchus latirostris","Carnaby's Black Cockatoo, Short-billed Black-cockatoo","Endangered","Low","Endangered","High",0.6
+"253",59542,"Bubulcus ibis","Ardea ibis","Cattle Egret",NA,"Very High","","High",0.6
+"254",59564,"Mesoplodon ginkgodens","Mesoplodon ginkgodens","Gingko-toothed Beaked Whale, Gingko-toothed Whale, Gingko Beaked Whale",NA,"Moderate","","Moderate",0.4
+"255",59569,"Morus capensis","Morus capensis","Cape Gannet",NA,NA,NA,NA,0.2
+"256",59570,"Acrocephalus orientalis","Acrocephalus orientalis","Oriental Reed-Warbler",NA,"High","","Very high",0.8
+"257",59597,"Garrodia nereis","Garrodia nereis","Grey-backed Storm-Petrel",NA,"Moderate","","Moderate",0.4
+"258",59612,"Polytelis anthopeplus monarchoides","Polytelis anthopeplus monarchoides","Regent Parrot (eastern)","Vulnerable","Low","Vulnerable","Low",0.2
+"259",59642,"Pterodroma cervicalis","Pterodroma cervicalis","White-necked Petrel",NA,"Moderate","","High",0.6
+"260",59660,"Phalacrocorax fuscescens","Phalacrocorax fuscescens","Black-faced Cormorant",NA,"Very high","","High",0.6
+"261",59714,"Cyclopsitta diophthalma coxeni","Cyclopsitta diophthalma coxeni","Coxen's Fig-Parrot","Critically Endangered",NA,NA,NA,0.2
+"262",64378,"Anous albivitta","Procelsterna cerulea","Grey Noddy, Grey Ternlet",NA,"High","","High",0.6
+"263",64405,"Diomedea amsterdamensis","Diomedea amsterdamensis","Amsterdam Albatross","Endangered","Moderate","Endangered","High",0.6
+"264",64435,"Aquila audax fleayi","Aquila audax fleayi","Tasmanian Wedge-tailed Eagle, Wedge-tailed Eagle (Tasmanian)","Endangered","High","Endangered","Very high",0.8
+"265",64436,"Calyptorhynchus lathami halmaturinus","Calyptorhynchus lathami halmaturinus","Kangaroo Island Glossy Black-Cockatoo, Glossy Black-Cockatoo (South Australian)","Endangered","Low","Endangered","High",0.6
+"266",64438,"Fregetta grallaria grallaria","Fregetta grallaria grallaria","White-bellied Storm-Petrel (Tasman Sea), White-bellied Storm-Petrel (Australasian)","Vulnerable","Moderate","Vulnerable","High",0.6
+"267",64440,"Geophaps scripta scripta","Geophaps scripta scripta","Squatter Pigeon (southern)","Vulnerable","Low","Vulnerable","Low",0.2
+"268",64441,"Geophaps smithii smithii","Geophaps smithii smithii","Partridge Pigeon (eastern)","Vulnerable","Low","Vulnerable","Moderate",0.4
+"269",64442,"Malurus coronatus coronatus","Malurus coronatus coronatus","Purple-crowned Fairy-wren (western)","Endangered","Low","Endangered","Moderate",0.4
+"270",64444,"Pachycephala pectoralis xanthoprocta","Pachycephala pectoralis xanthoprocta","Golden Whistler (Norfolk Island)","Vulnerable","Moderate","Vulnerable","High",0.6
+"271",64445,"Pachyptila turtur subantarctica","Pachyptila turtur subantarctica","Fairy Prion (southern)","Vulnerable","High","Vulnerable","Very high",0.8
+"272",64447,"Poephila cincta cincta","Poephila cincta cincta","Southern Black-throated Finch","Endangered","Low","Endangered","Moderate",0.4
+"273",64449,"Psophodes nigrogularis nigrogularis","Psophodes nigrogularis nigrogularis","Western Heath Whipbird","Endangered","Moderate","Endangered","Very high",0.8
+"274",64450,"Pterodroma neglecta neglecta","Pterodroma neglecta neglecta","Kermadec Petrel (western)","Vulnerable","Moderate","Vulnerable","High",0.6
+"275",64451,"Sterna vittata bethunei","Sterna vittata bethunei","New Zealand Antarctic Tern, Antarctic Tern (New Zealand)","Endangered","High","Endangered","Very high",0.8
+"276",64452,"Sterna vittata vittata","Sterna vittata vittata","Antarctic Tern (Indian Ocean)","Vulnerable","High","Vulnerable","Very high",0.8
+"277",64454,"Amytornis textilis myall","Amytornis textilis myall","Western Grasswren (Gawler Ranges)","Vulnerable","Low","Vulnerable","Moderate",0.4
+"278",64456,"Diomedea sanfordi","Diomedea sanfordi","Northern Royal Albatross","Endangered","Moderate","Endangered","High",0.6
+"279",64457,"Thalassarche eremita","Thalassarche eremita","Chatham Albatross","Endangered",NA,NA,NA,0.2
+"280",64458,"Diomedea antipodensis","Diomedea antipodensis","Antipodean Albatross","Vulnerable","Moderate","Vulnerable","High",0.6
+"281",64459,"Thalassarche impavida","Thalassarche impavida","Campbell Albatross, Campbell Black-browed Albatross","Vulnerable","Moderate","Vulnerable","Moderate",0.4
+"282",64460,"Thalassarche bulleri","Thalassarche bulleri","Buller's Albatross, Pacific Albatross","Vulnerable","Moderate","Vulnerable","Moderate",0.4
+"283",64462,"Thalassarche steadi","Thalassarche steadi","White-capped Albatross","Vulnerable","Moderate","Vulnerable","High",0.6
+"284",64463,"Thalassarche salvini","Thalassarche salvini","Salvin's Albatross","Vulnerable","Moderate","Vulnerable","High",0.6
+"285",64464,"Thalassarche carteri","Thalassarche carteri","Indian Yellow-nosed  Albatross","Vulnerable","Moderate","Vulnerable","Moderate",0.4
+"286",64475,"Dasyurus maculatus gracilis","Dasyurus maculatus gracilis","Spotted-tailed Quoll (North Queensland), Yarri","Endangered","Moderate","Endangered","Moderate",0.4
+"287",66471,"Diomedea dabbenena","Diomedea dabbenena","Tristan Albatross","Endangered","Moderate","Endangered","High",0.6
+"288",66472,"Thalassarche melanophris","Thalassarche melanophris","Black-browed Albatross","Vulnerable","Moderate","Vulnerable","High",0.6
+"289",66491,"Thalassarche chrysostoma","Thalassarche chrysostoma","Grey-headed Albatross","Endangered","Moderate","Endangered","High",0.6
+"290",66501,"Geophaps smithii blaauwi","Geophaps smithii blaauwi","Partridge Pigeon (western)","Vulnerable","Low","Vulnerable","Moderate",0.4
+"291",66642,"Potorous gilbertii","Potorous gilbertii","Gilbert's Potoroo, Ngilkat","Critically Endangered","Low","Critically Endangered","Low",0.2
+"292",66645,"Potorous tridactylus tridactylus","Potorous tridactylus tridactylus","Long-nosed Potoroo (northern)","Vulnerable","Low","Vulnerable","Low",0.2
+"293",66646,"Petrogale xanthopus xanthopus","Petrogale xanthopus xanthopus","Yellow-footed Rock-wallaby (SA and NSW)","Vulnerable","Low","Vulnerable","Low",0.2
+"294",66647,"Petrogale lateralis lateralis","Petrogale lateralis lateralis","Black-flanked Rock-wallaby, Moororong, Black-footed Rock Wallaby","Endangered","Low","Endangered","Low",0.2
+"295",66651,"Perameles gunnii gunnii","Perameles gunnii gunnii","Eastern Barred Bandicoot (Tasmania)","Vulnerable","Low","Vulnerable","Low",0.2
+"296",66659,"Bettongia lesueur lesueur","Bettongia lesueur lesueur","Burrowing Bettong (Shark Bay), Boodie","Vulnerable","Low","Vulnerable","Low",0.2
+"297",66661,"Lagorchestes conspicillatus conspicillatus","Lagorchestes conspicillatus conspicillatus","Spectacled Hare-wallaby (Barrow Island)","Vulnerable","Low","Vulnerable","Moderate",0.4
+"298",66662,"Lagorchestes hirsutus bernieri","Lagorchestes hirsutus bernieri","Rufous Hare-wallaby (Bernier Island)","Vulnerable","Low","Vulnerable","Moderate",0.4
+"299",66663,"Lagorchestes hirsutus dorreae","Lagorchestes hirsutus dorreae","Rufous Hare-wallaby (Dorre Island)","Vulnerable","Low","Vulnerable","Moderate",0.4
+"300",66664,"Lagostrophus fasciatus fasciatus","Lagostrophus fasciatus fasciatus","Banded Hare-wallaby, Merrnine, Marnine, Munning","Vulnerable","Low","Vulnerable","Low",0.2
+"301",66665,"Isoodon auratus auratus","Isoodon auratus auratus","Golden Bandicoot (mainland)","Vulnerable","Low","Vulnerable","Low",0.2
+"302",66666,"Isoodon auratus barrowensis","Isoodon auratus barrowensis","Golden Bandicoot (Barrow Island)","Vulnerable","Low","Vulnerable","Moderate",0.4
+"303",66667,"Isoodon obesulus nauticus","Isoodon obesulus nauticus","Southern Brown Bandicoot (Nuyts Archipelago)","Vulnerable","Low","Vulnerable","Low",0.2
+"304",66671,"Ninox natalis","Ninox natalis","Christmas Island Hawk-Owl, Christmas Boobook","Vulnerable","Moderate","Vulnerable","High",0.6
+"305",66728,"Phocoena dioptrica","Phocoena dioptrica","Spectacled Porpoise",NA,"High","","High",0.6
+"306",66844,"Bettongia penicillata ogilbyi","Bettongia penicillata ogilbyi","Woylie","Endangered","Low","Endangered","Low",0.2
+"307",66849,"Petrogale lateralis hacketti","Petrogale lateralis hacketti","Recherche Rock-wallaby","Vulnerable","Low","Vulnerable","Low",0.2
+"308",66889,"Saccolaimus saccolaimus nudicluniatus","Saccolaimus saccolaimus nudicluniatus","Bare-rumped Sheath-tailed Bat, Bare-rumped Sheathtail Bat","Vulnerable","Low","Vulnerable","Low",0.2
+"309",66973,"Pterodroma heraldica","Pterodroma heraldica","Herald Petrel","Critically Endangered","Very high","Critically Endangered","Extreme",1
+"310",66994,"Leucocarbo atriceps nivalis","Leucocarbo atriceps nivalis|Phalacrocorax nivalis","Imperial Shag (Heard Island), Heard Shag","Vulnerable","Very high","Vulnerable","Extreme",1
+"311",66995,"Leucocarbo atriceps purpurascens","Leucocarbo atriceps purpurascens|Phalacrocorax purpurascens","Imperial Shag (Macquarie Island)","Vulnerable","Very high","Vulnerable","Extreme",1
+"312",67030,"Chalcophaps indica natalis","Chalcophaps indica natalis","Christmas Island Emerald Dove, Emerald Dove (Christmas Island)","Endangered","Low","Endangered","High",0.6
+"313",67033,"Probosciger aterrimus macgillivrayi","Probosciger aterrimus macgillivrayi","Palm Cockatoo (Australian)","Vulnerable","Low","Vulnerable","High",0.6
+"314",67034,"Calyptorhynchus banksii naso","Calyptorhynchus banksii naso","Forest Red-tailed Black-Cockatoo, Karrak","Vulnerable","Low","Vulnerable","Low",0.2
+"315",67036,"Calyptorhynchus lathami lathami","Calyptorhynchus lathami lathami","South-eastern Glossy Black-Cockatoo","Vulnerable","Low","Vulnerable","Low",0.2
+"316",67041,"Platycercus caledonicus brownii","Platycercus caledonicus brownii","Green Rosella (King Island)","Vulnerable","Low","Vulnerable","High",0.6
+"317",67046,"Cyanoramphus cookii","Cyanoramphus cookii","Norfolk Island Green Parrot, Tasman Parakeet, Norfolk Island Parakeet","Endangered","Low","Endangered","High",0.6
+"318",67051,"Tyto novaehollandiae castanops (Tasmanian population)","Tyto novaehollandiae castanops (Tasmanian population)","Masked Owl (Tasmanian)","Vulnerable","High","Vulnerable","High",0.6
+"319",67062,"Climacteris picumnus victoriae","Climacteris picumnus victoriae","Brown Treecreeper (south-eastern)","Vulnerable","Low","Vulnerable","Low",0.2
+"320",67065,"Amytornis barbatus barbatus","Amytornis barbatus barbatus","Bulloo Grey Grasswren, Grey Grasswren (Bulloo)","Endangered","Low","Endangered","High",0.6
+"321",67080,"Acanthiza iredalei rosinae","Acanthiza iredalei rosinae","Slender-billed Thornbill (Gulf St Vincent)","Vulnerable","Low","Vulnerable","High",0.6
+"322",67089,"Epthianura crocea tunneyi","Epthianura crocea tunneyi","Alligator Rivers Yellow Chat, Yellow Chat (Alligator Rivers)","Endangered","Moderate","Endangered","Very high",0.8
+"323",67090,"Epthianura crocea macgregori","Epthianura crocea macgregori","Capricorn Yellow Chat, Yellow Chat (Dawson)","Critically Endangered","Moderate","Critically Endangered","High",0.6
+"324",67092,"Melanodryas cucullata melvillensis","Melanodryas cucullata melvillensis","Tiwi Islands Hooded Robin, Hooded Robin (Tiwi Islands)","Critically Endangered","Moderate","","Low",0.2
+"325",67093,"Melanodryas cucullata cucullata","Melanodryas cucullata cucullata","South-eastern Hooded Robin, Hooded Robin (south-eastern)","Endangered","Moderate","Endangered","High",0.6
+"326",67098,"Psophodes leucogaster lashmari","Psophodes nigrogularis lashmari","Kangaroo Island Whipbird","Endangered","Moderate","Endangered","Very high",0.8
+"327",67099,"Cinclosoma punctatum anachoreta","Cinclosoma punctatum anachoreta","Mt Lofty Ranges Spotted Quail-thrush, Spotted Quail-thrush (Mt Lofty Ranges)","Critically Endangered","Moderate","Critically Endangered","Low",0.2
+"328",67113,"Strepera fuliginosa colei","Strepera fuliginosa colei","Black Currawong (King Island)","Vulnerable","Moderate","Vulnerable","High",0.6
+"329",67121,"Zoothera lunulata halmaturina","Zoothera lunulata halmaturina","South Australian Bassian Thrush, Western Bassian Thrush","Endangered","Low","Endangered","High",0.6
+"330",67122,"Turdus poliocephalus erythropleurus","Turdus poliocephalus erythropleurus","Christmas Island Thrush","Endangered","Low","Endangered","High",0.6
+"331",67812,"Balaenoptera bonaerensis","Balaenoptera bonaerensis","Antarctic Minke Whale, Dark-shoulder Minke Whale",NA,"High","","High",0.6
+"332",68050,"Isoodon obesulus obesulus","Isoodon obesulus obesulus","Southern Brown Bandicoot (eastern), Southern Brown Bandicoot (south-eastern)","Endangered","Low","Endangered","Low",0.2
+"333",68417,"Tursiops truncatus s. str.","Tursiops truncatus s. str.","Bottlenose Dolphin",NA,"High","","High",0.6
+"334",68418,"Tursiops aduncus","Tursiops aduncus","Indian Ocean Bottlenose Dolphin, Spotted Bottlenose Dolphin",NA,"High","","High",0.6
+"335",75183,"Dasyurus maculatus maculatus (Tasmanian population)","Dasyurus maculatus maculatus (Tasmanian population)","Spotted-tail Quoll, Spot-tailed Quoll, Tiger Quoll (Tasmanian population)","Vulnerable","Moderate","Vulnerable","Moderate",0.4
+"336",75184,"Dasyurus maculatus maculatus (SE mainland population)","Dasyurus maculatus maculatus (SE mainland population)","Spotted-tail Quoll, Spot-tailed Quoll, Tiger Quoll (southeastern mainland population)","Endangered","Moderate","Endangered","Moderate",0.4
+"337",77037,"Rostratula australis","Rostratula australis|Rostratula benghalensis (sensu lato)","Australian Painted Snipe","Endangered","High","Endangered","Very high",0.8
+"338",78900,"Tursiops aduncus (Arafura/Timor Sea populations)","Tursiops aduncus (Arafura/Timor Sea populations)","Spotted Bottlenose Dolphin (Arafura/Timor Sea populations)",NA,"High","","High",0.6
+"339",80202,"Stagonopleura bella samueli","Stagonopleura bella samueli","Western Beautiful Firetail, Beautiful Firetail (Mt Lofty Range and Kangaroo Island)","Endangered","Low","Endangered","High",0.6
+"340",80437,"Anthochaera chrysoptera halmaturina","Anthochaera chrysoptera halmaturina","Kangaroo Island Little Wattlebird","Vulnerable","Low","Vulnerable","High",0.6
+"341",80453,"Melithreptus brevirostris magnirostris","Melithreptus brevirostris magnirostris","Kangaroo Island Brown-headed Honeyeater","Endangered","Low","Endangered","High",0.6
+"342",80610,"Cecropis daurica","Cecropis daurica|Hirundo daurica","Red-rumped Swallow",NA,NA,NA,NA,0.2
+"343",80759,"Acanthiza lineata whitei","Acanthiza lineata whitei","Kangaroo Island Striated Thornbill","Vulnerable","Low","Vulnerable","High",0.6
+"344",80826,"Hylacola pyrrhopygia parkeri","Calamanthus pyrrhopygius parkeri","Chestnut-rumped Heathwren (Mt Lofty Ranges)","Endangered","Low","Endangered","Low",0.2
+"345",81011,"Mirafra javanica melvillensis","Mirafra javanica melvillensis","Horsfield's Bushlark (Tiwi Islands)","Vulnerable","Low","Vulnerable","High",0.6
+"346",81025,"Psophodes leucogaster leucogaster","Psophodes leucogaster leucogaster","Mallee Whipbird","Endangered","Moderate","Endangered","Moderate",0.4
+"347",81322,"Orcaella heinsohni","Orcaella heinsohni","Australian Snubfin  Dolphin","Vulnerable","High","Vulnerable","High",0.6
+"348",82270,"Diomedea antipodensis gibsoni","Diomedea antipodensis gibsoni|Diomedea gibsoni","Gibson's Albatross","Vulnerable","Moderate","Vulnerable","High",0.6
+"349",82273,"Thalassarche bulleri platei","Thalassarche bulleri platei|Thalassarche sp. nov.","Northern Buller's Albatross, Pacific Albatross","Vulnerable","Moderate","Vulnerable","Low",0.2
+"350",82329,"Acanthornis magna greeniana","Acanthornis magna greeniana","King Island Scrubtit, Scrubtit (King Island)","Critically Endangered","Low","Critically Endangered","Very high",0.8
+"351",82332,"Hylacola cauta halmaturina","Hylacola cauta halmaturina","Shy Heathwren (Kangaroo Island)","Vulnerable","Low","Vulnerable","Low",0.2
+"352",82338,"Anthochaera phrygia","Anthochaera phrygia","Regent Honeyeater","Critically Endangered","Low","Critically Endangered","High",0.6
+"353",82404,"Ardenna carneipes","Ardenna carneipes|Puffinus carneipes","Flesh-footed Shearwater, Fleshy-footed Shearwater",NA,"High","","Moderate",0.4
+"354",82408,"Accipiter hiogaster natalis","Accipiter hiogaster natalis","Christmas Island Goshawk","Endangered","High","Endangered","Very high",0.8
+"355",82451,"Turnix varius scintillans","Turnix varius scintillans","Painted Button-quail (Houtman Abrolhos)","Endangered","High","Endangered","Very high",0.8
+"356",82651,"Ardenna grisea","Ardenna grisea|Puffinus griseus","Sooty Shearwater","Vulnerable","High","Vulnerable","High",0.6
+"357",82652,"Ardenna tenuirostris","Ardenna tenuirostris|Puffinus tenuirostris","Short-tailed Shearwater",NA,"Very high","","High",0.6
+"358",82790,"Rhinonicteris aurantia (Pilbara form)","Rhinonicteris aurantia (Pilbara form)","Pilbara Leaf-nosed Bat","Vulnerable","Low","Vulnerable","Low",0.2
+"359",82845,"Onychoprion anaethetus","Onychoprion anaethetus|Sterna anaethetus","Bridled Tern",NA,"Very high","","Very high",0.8
+"360",82849,"Sternula albifrons","Sterna albifrons|Sternula albifrons","Little Tern","Vulnerable","Very high","Vulnerable","Very high",0.8
+"361",82926,"Lophochroa leadbeateri leadbeateri","Lophochroa leadbeateri leadbeateri","Major Mitchell's Cockatoo (eastern), Eastern Major Mitchell's Cockatoo, Pink Cockatoo (eastern)","Endangered","Low","Endangered","Low",0.2
+"362",82950,"Sternula nereis nereis","Sternula nereis nereis","Australian Fairy Tern","Vulnerable","Very high","Vulnerable","Very high",0.8
+"363",82954,"Phascogale pirata","Phascogale pirata","Northern Brush-tailed Phascogale","Vulnerable","Low","Vulnerable","Moderate",0.4
+"364",83000,"Thalasseus bergii","Sterna bergii|Thalasseus bergii","Greater Crested Tern",NA,"Very high","","High",0.6
+"365",83086,"Antechinus minimus maritimus","Antechinus minimus maritimus","Swamp Antechinus (mainland)","Vulnerable","Moderate","Vulnerable","Moderate",0.4
+"366",83091,"Trichosurus vulpecula arnhemensis","Trichosurus vulpecula arnhemensis","Northern Brushtail Possum","Vulnerable","Low","Vulnerable","Low",0.2
+"367",83395,"Nyctophilus corbeni","Nyctophilus corbeni","Corben's Long-eared Bat, South-eastern Long-eared Bat","Vulnerable","Low","Vulnerable","Low",0.2
+"368",84121,"Amytornis modestus","Amytornis modestus","Thick-billed Grasswren","Vulnerable","Low","Vulnerable","Low",0.2
+"369",84292,"Ardenna pacifica","Ardenna pacifica|Puffinus pacificus","Wedge-tailed Shearwater",NA,"High","","High",0.6
+"370",84650,"Pezoporus flaviventris","Pezoporus flaviventris","Western Ground Parrot, Kyloring","Critically Endangered","Low","Critically Endangered","Very high",0.8
+"371",85043,"Kogia sima","Kogia sima","Dwarf Sperm Whale",NA,"Moderate","","Moderate",0.4
+"372",85046,"Stipiturus malachurus halmaturinus","Stipiturus malachurus halmaturinus","Kangaroo Island Southern Emu-wren","Endangered","Low","Endangered","High",0.6
+"373",85104,"Phascolarctos cinereus (combined populations of Qld, NSW and the ACT)","Phascolarctos cinereus (combined populations of Qld, NSW and the ACT)","Koala (combined populations of Queensland, New South Wales and the Australian Capital Territory)","Endangered","Low","Endangered","Low",0.2
+"374",86183,"Amytornis modestus obscurior","Amytornis modestus obscurior","Grey Range Thick-billed Grasswren, Thick-billed Grasswren (north-west NSW)","Critically Endangered","Low","Critically Endangered","Very high",0.8
+"375",86269,"Amytornis merrotsyi merrotsyi","Amytornis merrotsyi merrotsyi","Short-tailed Grasswren (Flinders Ranges)","Vulnerable","Low","Vulnerable","High",0.6
+"376",86270,"Amytornis merrotsyi pedleri","Amytornis merrotsyi pedleri","Gawler Ranges Short-tailed Grasswren, Short-tailed Grasswren (Gawler Ranges)","Endangered","Low","Endangered","High",0.6
+"377",86367,"Potorous tridactylus trisulcatus","Potorous tridactylus trisulcatus","Long-nosed Potoroo (southern mainland)","Vulnerable","Low","Vulnerable","Low",0.2
+"378",86380,"Limosa lapponica baueri","Limosa lapponica baueri","Nunivak Bar-tailed Godwit, Western Alaskan Bar-tailed Godwit","Endangered","Moderate","Endangered","High",0.6
+"379",86394,"Nesoptilotis leucotis thomasi","Nesoptilotis leucotis thomasi","Kangaroo Island White-eared Honeyeater","Endangered","Low","Endangered","High",0.6
+"380",86432,"Limosa lapponica menzbieri","Limosa lapponica menzbieri","Northern Siberian Bar-tailed Godwit, Russkoye Bar-tailed Godwit","Endangered","Moderate","Endangered","High",0.6
+"381",86568,"Crocidura trichura","Crocidura trichura","Christmas Island Shrew","Critically Endangered","Low","Critically Endangered","Low",0.2
+"382",86651,"Cuculus optatus","Cuculus optatus","Oriental Cuckoo, Horsfield's Cuckoo",NA,"Moderate","","Low",0.2
+"383",86675,"Hipposideros inornatus","Hipposideros inornatus","Arnhem Leaf-nosed Bat","Endangered","Low","Endangered","Low",0.2
+"384",87136,"Balaenoptera omurai","Balaenoptera omurai","Omura's Whale",NA,"High","","High",0.6
+"385",87597,"Tachyglossus aculeatus multiaculeatus","Tachyglossus aculeatus multiaculeatus","Kangaroo Island Echidna","Endangered","Low","Endangered","Moderate",0.4
+"386",87600,"Petaurus australis australis","Petaurus australis australis","Yellow-bellied Glider (south-eastern)","Vulnerable","Low","Vulnerable","Low",0.2
+"387",87605,"Petrogale concinna concinna","Petrogale concinna concinna","Nabarlek (Victoria River District)","Critically Endangered","Low","Critically Endangered","Moderate",0.4
+"388",87606,"Petrogale concinna canescens","Petrogale concinna canescens","Nabarlek (Top End)","Endangered","Low","Endangered","Low",0.2
+"389",87607,"Petrogale concinna monastria","Petrogale concinna monastria","Nabarlek (Kimberley)","Endangered","Low","Endangered","Low",0.2
+"390",87608,"Petrogale xanthopus celeris","Petrogale xanthopus celeris","Yellow-footed Rock-wallaby (central-western Queensland)","Vulnerable","Low","Vulnerable","Low",0.2
+"391",87611,"Pteropus natalis","Pteropus natalis","Christmas Island Flying-fox, Christmas Island Fruit-bat","Critically Endangered","Moderate","Critically Endangered","Moderate",0.4
+"392",87617,"Mastacomys fuscus mordicus","Mastacomys fuscus mordicus","Broad-toothed Rat (mainland), Tooarrana","Endangered","Low","Endangered","Low",0.2
+"393",87618,"Mesembriomys gouldii gouldii","Mesembriomys gouldii gouldii","Black-footed Tree-rat (Kimberley and mainland Northern Territory), Djintamoonga, Manbul","Endangered","Low","Endangered","Low",0.2
+"394",87619,"Mesembriomys gouldii melvillensis","Mesembriomys gouldii melvillensis","Black-footed Tree-rat (Melville Island)","Vulnerable","Low","Vulnerable","Low",0.2
+"395",87620,"Mesembriomys gouldii rattoides","Mesembriomys gouldii rattoides","Black-footed Tree-rat (north Queensland), Shaggy Rabbit-rat","Vulnerable","Low","Vulnerable","Low",0.2
+"396",87639,"Rhinolophus robertsi","Rhinolophus robertsi","Large-eared Horseshoe Bat, Greater Large-eared Horseshoe Bat, Lesser Large-eared Horseshoe Bat","Vulnerable","Low","Vulnerable","Low",0.2
+"397",87645,"Miniopterus orianae bassanii","Miniopterus orianae bassanii","Southern Bent-wing Bat","Critically Endangered","Low","Critically Endangered","Moderate",0.4
+"398",87732,"Hypotaenidia sylvestris","Hypotaenidia sylvestris","Lord Howe Woodhen","Endangered","Moderate","Endangered","Very high",0.8
+"399",87942,"Sousa sahulensis","Sousa chinensis|Sousa sahulensis","Australian Humpback Dolphin","Vulnerable","High","Vulnerable","High",0.6
+"400",88019,"Lagorchestes hirsutus Central Australian subspecies","Lagorchestes hirsutus Central Australian subspecies","Mala, Rufous Hare-Wallaby (Central Australia)","Endangered","Low","Endangered","Low",0.2
+"401",88020,"Perameles gunnii Victorian subspecies","Perameles gunnii Victorian subspecies","Eastern Barred Bandicoot (Mainland)","Endangered","Low","Endangered","Low",0.2
+"402",88021,"Bettongia lesueur Barrow and Boodie Islands subspecies","Bettongia lesueur Barrow and Boodie Islands subspecies","Boodie, Burrowing Bettong (Barrow and Boodie Islands)","Vulnerable","Low","Vulnerable","Low",0.2
+"403",88022,"Petaurus australis brevirostrum","Petaurus australis Wet Tropics subspecies","Northern Yellow-bellied Glider, Wet Tropics Yellow-bellied Glider","Endangered","Low","Endangered","Moderate",0.4
+"404",88217,"Antechinus arktos","Antechinus arktos","Black-tailed Antechinus","Endangered","Low","Endangered","Moderate",0.4
+"405",88218,"Antechinus argentus","Antechinus argentus","Silver-headed Antechinus","Endangered","Low","Endangered","Moderate",0.4
+"406",88453,"Phascogale tapoatafa kimberleyensis","Phascogale tapoatafa kimberleyensis","Kimberley brush-tailed phascogale, Brush-tailed Phascogale (Kimberley)","Vulnerable","Moderate","Vulnerable","Moderate",0.4
+"407",88994,"Hypotaenidia philippensis andrewsi","Hypotaenidia philippensis andrewsi","Buff-banded Rail (Cocos (Keeling) Islands), Ayam Hutan","Endangered","Moderate","Endangered","Very high",0.8
+"408",89221,"Diomedea epomophora","Diomedea epomophora","Southern Royal Albatross","Vulnerable","Moderate","Vulnerable","Moderate",0.4
+"409",89223,"Diomedea exulans","Diomedea exulans","Wandering Albatross","Vulnerable","Moderate","Vulnerable","High",0.6
+"410",89224,"Thalassarche cauta","Thalassarche cauta","Shy Albatross","Endangered","High","Endangered","Very high",0.8
+"411",89262,"Osphranter robustus isabellinus","Osphranter robustus isabellinus","Barrow Island Wallaroo, Barrow Island Euro","Vulnerable","Low","Vulnerable","Moderate",0.4
+"412",89289,"Notamacropus parma","Notamacropus parma","Parma Wallaby","Vulnerable","Low","Vulnerable","Low",0.2
+"413",90381,"Thinornis cucullatus cucullatus","Thinornis cucullatus cucullatus|Thinornis rubricollis rubricollis","Eastern Hooded Plover, Eastern Hooded Plover","Vulnerable","Moderate","Vulnerable","High",0.6
+"414",90831,"Petrogale lateralis centralis","Petrogale lateralis centralis","Warru, Central Australian Rock-wallaby","Vulnerable","Low","Vulnerable","Low",0.2
+"415",90832,"Petrogale lateralis kimberleyensis","Petrogale lateralis kimberleyensis","Wiliji, West Kimberley Rock-wallaby","Endangered","Low","Endangered","Moderate",0.4
+"416",91209,"Platycercus elegans melanopterus","Platycercus elegans melanopterus","Kangaroo Island Crimson Rosella","Vulnerable","Low","Vulnerable","High",0.6
+"417",91648,"Amytornis striatus howei","Amytornis striatus howei","Murray Mallee Striated Grasswren, Striated Grasswren (sandplain)","Endangered","Low","Endangered","High",0.6
+"418",91709,"Acanthiza pusilla magnirostris","Acanthiza pusilla magnirostris","King Island Brown Thornbill, Brown Thornbill (King Island)","Endangered","Low","Endangered","High",0.6
+"419",91824,"Phaethon rubricauda westralis","Phaethon rubricauda westralis","Red-tailed Tropicbird (Indian Ocean), Indian Ocean Red-tailed Tropicbird","Endangered","High","Endangered","Very high",0.8
+"420",92008,"Petauroides minor","Petauroides minor","Greater Glider (northern), Greater Glider (north-eastern Queensland)","Vulnerable","Low","Vulnerable","Low",0.2
+"421",92894,"Sminthopsis fuliginosa aitkeni","Sminthopsis fuliginosa aitkeni","Kangaroo Island Dunnart","Endangered","Low","Endangered","Moderate",0.4

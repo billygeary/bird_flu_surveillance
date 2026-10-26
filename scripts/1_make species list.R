@@ -1,4 +1,6 @@
-# Create weighting file
+# =============================================================================
+# 1 - Create species lists and weightings
+# =============================================================================
 library(tidyverse)
 
 ausgov_list = read.csv("input_data/h5birdflu_ausgov_susceptibility.csv")
@@ -146,17 +148,35 @@ joined_final <- bind_rows(joined, pass5) %>%
 
 cat("Final total matched:", nrow(joined_final), "\n")
 
-# ── Make weightigs ────────────────────────────────────────────────────────────────
+# ── Make weightings ────────────────────────────────────────────────────────────────
 joined_final_selected = joined_final %>%
   select(LISTED_TAXON_ID, SCIENTIFIC_NAME, EPBC_NAMES, VERNACULAR_NAME, THREATENED_STATUS,
          susceptibility, cons_status_s, nat_risk) %>%
-  mutate(weight = case_when(nat_risk == "Extreme" ~ 1,
-                            nat_risk == "Very high" ~ 0.8, 
-                            nat_risk == "High" ~ 0.6,
-                            nat_risk == "Moderate" ~ 0.4,
-                            nat_risk == "Low" ~ 0.2,
-                            .default = 0.2))
+  mutate(weight_natrisk_linear = case_when(nat_risk == "Extreme" ~ 1,
+                                        nat_risk == "Very high" ~ 0.8, 
+                                        nat_risk == "High" ~ 0.6,
+                                        nat_risk == "Moderate" ~ 0.4,
+                                        nat_risk == "Low" ~ 0.2,
+                                        .default = 0.2)) %>%
+    mutate(weight_natrisk_exp = case_when(nat_risk == "Extreme" ~ 1,
+                                             nat_risk == "Very high" ~ 0.5, 
+                                             nat_risk == "High" ~ 0.25,
+                                             nat_risk == "Moderate" ~ 0.125,
+                                             nat_risk == "Low" ~ 0.0625,
+                                             .default = 0.0625)) %>%
+    mutate(weight_suscept_linear = case_when(susceptibility  == "Extreme" ~ 1,
+                                             susceptibility  == "Very high" ~ 0.8, 
+                                             susceptibility  == "High" ~ 0.6,
+                                             susceptibility  == "Moderate" ~ 0.4,
+                                             susceptibility  == "Low" ~ 0.2,
+                                          .default = 0.2)) %>%
+    mutate(weight_epbc_linear = case_when(THREATENED_STATUS   == "Critically Endangered" ~ 1,
+                                             THREATENED_STATUS   == "Endangered" ~ 0.75, 
+                                             THREATENED_STATUS   == "Vulnerable" ~ 0.5,
+                                             is.na(THREATENED_STATUS) ~ 0.25,
+                                             .default = 0.25))
+  
+  
 
 # ── Save ────────────────────────────────────────────────────────────────
-
 write.csv(joined_final_selected, "input_data/h5birdflu_species_weights.csv")

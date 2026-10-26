@@ -1,4 +1,6 @@
-# 3 - Calculate overlap of MNES and Native Vegetation Data
+# =============================================================================
+# 2 - Create species rasters based on the SNES database and the provided mask
+# =============================================================================
 library(sf)
 library(terra)
 library(tidyverse)
@@ -34,7 +36,7 @@ raster_dir    <- "X:/Projects/bird_flu_surveillance/species/"
 species_ranges <- vect(snes_filtered)
 
 # ============================================================
-# LOOP: species x year
+# LOOP: species and save
 # ============================================================
 snes_filtered$species_id = 1:nrow(snes_filtered)
 species_ids = snes_filtered$species_id

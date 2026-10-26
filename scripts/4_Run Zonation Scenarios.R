@@ -3,82 +3,107 @@ library(terra)
 
 source("scripts/function_zonation_prep.R")
 
-###############################################
-#### Scenario 1: Weighted by Susceptbility ####
-###############################################
+## All scenarios consider travel cost
+## Different scenarios test alternative species weights (x3)
+## and different appraoches for quantifying distance from nearest outbreak (x2)
 
-## Feature List
-scen_dir = "C:/Users/geary/OneDrive - The University of Melbourne/Research/Projects/2026/bird_flu_surveillance/z_runs/s1_susceptibility"
+## Key files
+cost_path = "C:/Users/geary/OneDrive - The University of Melbourne/Research/Projects/2026/bird_flu_surveillance/input_data/travel_cost.tif"
+weights = read.csv("input_data/species_weight_scenarios.csv") %>% mutate(unweighted = 1)
+
 spp.dir = "X:/Projects/bird_flu_surveillance/species"
 spp.list = list.files("X:/Projects/bird_flu_surveillance/species", full=T)
 
-susceptibility_weights = read.table("weighted_zonation_run/h5n1_priority_weighted_features.txt", header=TRUE)
+outbreak_density = "C:/Users/geary/OneDrive - The University of Melbourne/Research/Projects/2026/bird_flu_surveillance/input_data/outbreak_density_cond.tif"
+outbreak_dist = "C:/Users/geary/OneDrive - The University of Melbourne/Research/Projects/2026/bird_flu_surveillance/input_data/outbreak_distance_cond.tif"
+future_outbreak_density = "C:/Users/geary/OneDrive - The University of Melbourne/Research/Projects/2026/bird_flu_surveillance/input_data/future_outbreak_density_cond.tif"
+future_outbreak_dist = "C:/Users/geary/OneDrive - The University of Melbourne/Research/Projects/2026/bird_flu_surveillance/input_data/future_outbreak_distance_cond.tif"
 
+###############################################
+#### Scenario 0: No species weights ####
+###############################################
+## Feature List
+scen_dir = "C:/Users/geary/OneDrive - The University of Melbourne/Research/Projects/2026/bird_flu_surveillance/z_runs/s0_unweighted"
 
 withr::with_dir(scen_dir, {
   # Create the feature list 
-  feature_list(spp_file_dir = spp.dir, weight = susceptibility_weights$weight)
+  feature_list(spp_file_dir = spp.dir, weight = weights$unweighted)
   
   # Create settings file
-  settings_file(feature_list_file = "feature_list.txt")
+  settings_file(feature_list_file = "feature_list.txt", 
+                cost_layer = cost_path)
   
   # Create the Zonation command file
   command_file(zonation_path = "C:/Program Files/Zonation5",
                marginal_loss_mode = "CAZ2",
-               flags = "w")
+               flags = "wX")
   
   ## Run Zonation
   run_command_file(".")
 })
 
-# Visualise the ranking map
-p1 <- priority_map(scen_dir)
-plot(p1)
 
 
-############################################################################
-#### Scenario 2: Susceptibility and Travel Cost ####
-############################################################################
-cost_path = "C:/Users/geary/OneDrive - The University of Melbourne/Research/Projects/2026/bird_flu_surveillance/input_data/travel_cost.tif"
-outbreaks = "C:/Users/geary/OneDrive - The University of Melbourne/Research/Projects/2026/bird_flu_surveillance/input_data/outbreak_distance_cond.tif"
+########################################################
+#### Scenario 1: Weighted by National Risk - Linear ####
+########################################################
 
-dir.create("C:/Users/geary/OneDrive - The University of Melbourne/Research/Projects/2026/bird_flu_surveillance/z_runs/s2_susceptibility_cost", showWarnings = FALSE)
-scen_dir_s2 = "C:/Users/geary/OneDrive - The University of Melbourne/Research/Projects/2026/bird_flu_surveillance/z_runs/s2_susceptibility_cost"
+## Feature List
+scen_dir = "C:/Users/geary/OneDrive - The University of Melbourne/Research/Projects/2026/bird_flu_surveillance/z_runs/s1_susceptibility_linear"
 
-withr::with_dir(scen_dir_s2, {
+withr::with_dir(scen_dir, {
   # Create the feature list 
-  feature_list(spp_file_dir = spp.dir, weight = susceptibility_weights$weight)
+  feature_list(spp_file_dir = spp.dir, weight = weights$weight_natrisk_linear)
   
   # Create settings file
   settings_file(feature_list_file = "feature_list.txt", 
-                    cost_layer = cost_path)
+                cost_layer = cost_path)
   
   # Create the Zonation command file
   command_file(zonation_path = "C:/Program Files/Zonation5",
-                   marginal_loss_mode = "CAZ2",
-                   flags = "wX") # Flag w (use weights and condition)
+               marginal_loss_mode = "CAZ2",
+               flags = "wX")
   
   ## Run Zonation
   run_command_file(".")
 })
 
-cost_summary(scen_dir_s2, landscape_prop = c(0.1, 0.2, 0.5, 1))
 
 ############################################################################
-#### Scenario 3: Susceptibility, Distance from Outbreak and Travel Cost ####
+#### Scenario 2: Weighted by National Risk - Multiplicative ####
 ############################################################################
-cost_path = "C:/Users/geary/OneDrive - The University of Melbourne/Research/Projects/2026/bird_flu_surveillance/input_data/travel_cost.tif"
-outbreaks = "outbreak_distance_cond.tif"
 
-dir.create("C:/Users/geary/OneDrive - The University of Melbourne/Research/Projects/2026/bird_flu_surveillance/z_runs/s3_susceptibility_cost_cond", showWarnings = FALSE)
-scen_dir_s3 = "C:/Users/geary/OneDrive - The University of Melbourne/Research/Projects/2026/bird_flu_surveillance/z_runs/s3_susceptibility_cost_cond"
+scen_dir_s2 = "C:/Users/geary/OneDrive - The University of Melbourne/Research/Projects/2026/bird_flu_surveillance/z_runs/s2_susceptibility_mult"
+
+withr::with_dir(scen_dir_s2, {
+  # Create the feature list 
+  feature_list(spp_file_dir = spp.dir, weight = weights$weight_natrisk_exp)
+  
+  # Create settings file
+  settings_file(feature_list_file = "feature_list.txt", 
+                cost_layer = cost_path)
+  
+  # Create the Zonation command file
+  command_file(zonation_path = "C:/Program Files/Zonation5",
+               marginal_loss_mode = "CAZ2",
+               flags = "wX")
+  
+  ## Run Zonation
+  run_command_file(".")
+})
+
+############################################################################
+#### Scenario 3: Susceptibility - Linear & Distance from Outbreak ####
+############################################################################
+
+scen_dir_s3 = "C:/Users/geary/OneDrive - The University of Melbourne/Research/Projects/2026/bird_flu_surveillance/z_runs/s3_susceptibility_linear_outbreak_dist_current"
 
 withr::with_dir(scen_dir_s3, {
   # Create the feature list 
-  feature_list_mod(spp_file_dir = spp.dir, weight = susceptibility_weights$weight, condition = TRUE)
+  feature_list_mod(spp_file_dir = spp.dir, weight = weights$weight_natrisk_linear, condition = TRUE)
   
   # Create condition link file
-  condition_link_file(condition_file = outbreaks, link_number = 1, rescale = 0)
+  condition_link_file(condition_file = basename(outbreak_dist), link_number = 1, rescale = 0)
   
   # Create settings file
   settings_file_mod(feature_list_file = "feature_list.txt", 
@@ -88,18 +113,89 @@ withr::with_dir(scen_dir_s3, {
   # Create the Zonation command file
   command_file_mod(zonation_path = "C:/Program Files/Zonation5",
                marginal_loss_mode = "CAZ2",
-               flags = "wXc") # Flag w (use weights and condition)
+               flags = "wXc") # Flag w (use weights, cost and condition)
+  
+  ## Run Zonation
+  run_command_file(".")
+})
+
+#############################################################################
+#### Scenario 4: Susceptibility - Linear & Distance from Future Outbreak ####
+#############################################################################
+scen_dir_s4 = "C:/Users/geary/OneDrive - The University of Melbourne/Research/Projects/2026/bird_flu_surveillance/z_runs/s4_susceptibility_linear_outbreak_dist_future"
+
+withr::with_dir(scen_dir_s4, {
+  # Create the feature list 
+  feature_list_mod(spp_file_dir = spp.dir, weight = weights$weight_natrisk_linear, condition = TRUE)
+  
+  # Create condition link file
+  condition_link_file(condition_file = basename(future_outbreak_dist), link_number = 1, rescale = 0)
+  
+  # Create settings file
+  settings_file_mod(feature_list_file = "feature_list.txt", 
+                    condition_link_file = "condition_link_file.txt",
+                    cost_layer = cost_path)
+  
+  # Create the Zonation command file
+  command_file_mod(zonation_path = "C:/Program Files/Zonation5",
+                   marginal_loss_mode = "CAZ2",
+                   flags = "wXc") # Flag w (use weights, cost and condition)
+  
+  ## Run Zonation
+  run_command_file(".")
+})
+
+############################################################################
+#### Scenario 5: Susceptibility - Linear & Density of Outbreak ####
+############################################################################
+
+scen_dir_s5 = "C:/Users/geary/OneDrive - The University of Melbourne/Research/Projects/2026/bird_flu_surveillance/z_runs/s5_susceptibility_linear_outbreak_dens_current"
+
+withr::with_dir(scen_dir_s5, {
+  # Create the feature list 
+  feature_list_mod(spp_file_dir = spp.dir, weight = weights$weight_natrisk_linear, condition = TRUE)
+  
+  # Create condition link file
+  condition_link_file(condition_file = basename(outbreak_density), link_number = 1, rescale = 0)
+  
+  # Create settings file
+  settings_file_mod(feature_list_file = "feature_list.txt", 
+                    condition_link_file = "condition_link_file.txt",
+                    cost_layer = cost_path)
+  
+  # Create the Zonation command file
+  command_file_mod(zonation_path = "C:/Program Files/Zonation5",
+                   marginal_loss_mode = "CAZ2",
+                   flags = "wXc") # Flag w (use weights, cost and condition)
   
   ## Run Zonation
   run_command_file(".")
 })
 
 
-##### Compare Scenarios #####
-s1 = rast(paste0(scen_dir, "/output/rankmap.tif"))
-s2 = rast(paste0(scen_dir_s2, "/output/rankmap.tif"))
-s3 = rast(paste0(scen_dir_s3, "/output/rankmap.tif"))
 
-names(s1)<- "z_weighted"
-names(s2)<- "z_weighted_cost"
-names(s3)<- "z_weighted_cost_distoutbreak"
+#############################################################################
+#### Scenario 6: Susceptibility - Linear & Density of Future Outbreak ####
+#############################################################################
+scen_dir_s6 = "C:/Users/geary/OneDrive - The University of Melbourne/Research/Projects/2026/bird_flu_surveillance/z_runs/s6_susceptibility_linear_outbreak_dens_future"
+
+withr::with_dir(scen_dir_s6, {
+  # Create the feature list 
+  feature_list_mod(spp_file_dir = spp.dir, weight = weights$weight_natrisk_linear, condition = TRUE)
+  
+  # Create condition link file
+  condition_link_file(condition_file = basename(future_outbreak_density), link_number = 1, rescale = 0)
+  
+  # Create settings file
+  settings_file_mod(feature_list_file = "feature_list.txt", 
+                    condition_link_file = "condition_link_file.txt",
+                    cost_layer = cost_path)
+  
+  # Create the Zonation command file
+  command_file_mod(zonation_path = "C:/Program Files/Zonation5",
+                   marginal_loss_mode = "CAZ2",
+                   flags = "wXc") # Flag w (use weights, cost and condition)
+  
+  ## Run Zonation
+  run_command_file(".")
+})

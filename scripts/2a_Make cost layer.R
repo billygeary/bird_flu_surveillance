@@ -1,4 +1,7 @@
-## Prepare Travel Cost Layer
+# =============================================================================
+# 2b -  Prepare Travel Cost Layer
+# =============================================================================
+
 library(terra)
 
 aus_mask = rast("input_data/australia_mask.tif")
