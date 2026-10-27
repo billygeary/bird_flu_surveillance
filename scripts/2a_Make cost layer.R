@@ -15,7 +15,7 @@ travel_time_aus = mask(travel_time_aus, aus_mask)
 
 # Convert to cost
 # $120 per hour for personnel cost, insurance, fuel per Southwell papers
-travel_cost_aus = travel_time_aus * 120
+travel_cost_aus = travel_time_aus/60 * 120
 
 # Save
-writeRaster(travel_cost_aus, "input_data/travel_cost.tif")
+writeRaster(travel_cost_aus, "input_data/travel_cost.tif", overwrite=TRUE)
